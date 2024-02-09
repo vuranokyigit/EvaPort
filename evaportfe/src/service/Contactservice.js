@@ -1,4 +1,4 @@
-const BASEURL = 'http://localhost:3333/evaport/contact';
+const BASEURL = 'https://evaport-backend-a0e0ed6a83c8.herokuapp.com/evaport/contact';
 
 const sendContactForm = async (contactData) => {
     try {
