@@ -46,14 +46,13 @@ const MyNavbar = () => {
                     <div className="col-md-4" id="navbarContentTextRoute">
                     <Nav className="ml-auto" id="navbarBar">
                         <div id="firstChild"><Nav.Link  style={{color:"#ffffff"}} href="/">{t('navbarHome')}</Nav.Link></div>
-                        <div id="secondChild"><Nav.Link  style={{color:"#ffffff"}} href="/eva/about">{t('navbarAboutUs')}</Nav.Link></div>
-                        <div id="thirdChild"><Nav.Link  style={{color:"#ffffff"}} href="/eva/product">{t('navbarProduct')}</Nav.Link></div>
-                        <div  id="fourthChild"><Nav.Link style={{color:"#ffffff"}} href="/eva/contact">{t('navbarContact')}</Nav.Link></div>
+                        <div id="secondChild"><Nav.Link  style={{color:"#ffffff"}} href="/evaport/about">{t('navbarAboutUs')}</Nav.Link></div>
+                        <div id="thirdChild"><Nav.Link  style={{color:"#ffffff"}} href="/evaport/product">{t('navbarProduct')}</Nav.Link></div>
+                        <div  id="fourthChild"><Nav.Link style={{color:"#ffffff"}} href="/evaport/contact">{t('navbarContact')}</Nav.Link></div>
                     </Nav>
                     </div>
                     <div className="col-md-4" id="language">
                         <button style={{border: "none"}} onClick={() => changeLanguage('en')}><img style={{width: "30px"}} src="/assets/united-kingdom.png" alt=""/></button>
-                        <button style={{border: "none"}} onClick={() => changeLanguage('tr')}><img style={{width: "30px"}} src="/assets/turkey.png" alt=""/></button>
                         <button style={{border: "none"}} onClick={() => changeLanguage('it')}><img style={{width: "30px"}} src="/assets/italy.png" alt=""/></button>
                         <button style={{border: "none"}} onClick={() => changeLanguage('pt')}><img style={{width: "30px"}} src="/assets/portugal.png" alt=""/></button>
                     </div>

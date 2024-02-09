@@ -31,7 +31,7 @@ const Home = () => {
                        <div className="row align-items-center justify-content-center">
                            <div className="col-md-8 text-center" id="evaPortWelcome">
                                <h1 style={{fontWeight:"bolder"}}>{t('homeWelcome')}</h1>
-                                 <a href="/eva/contact" className="btn btn-md"  id="homeSectionBtnContact" style={{fontWeight: "300"}}>
+                                 <a href="/evaport/contact" className="btn btn-md"  id="homeSectionBtnContact" style={{fontWeight: "300"}}>
                                      {t('homeButtonGetInTouch')}
                                   </a>
                            </div>
@@ -80,7 +80,7 @@ const Home = () => {
                                    {t('homeAboutUsParagraph')}
                                </p>
                                <p className="mt-4">
-                                   <a href="/eva/about" className="spepcial_link">
+                                   <a href="/evaport/about" className="spepcial_link">
                                        {t('homeAboutUsLink')}
                                    </a>
                                </p>

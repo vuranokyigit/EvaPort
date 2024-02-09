@@ -19,12 +19,12 @@ const Main = () => {
                 <Navbar />
                 <Switch>
                     <Route path="/" exact component={Home} />
-                    <Route path="/eva/about" component={About} />
-                    <Route path="/eva/product" component={Product} />
-                    <Route path="/eva/contact" component={Contact} />
-                    <Route path="/eva/evacore" component={Evacore}/>
-                    <Route path="/eva/evabrand" component={Evabrand}/>
-                    <Route path="/eva/ecoevapro" component={Ecoevapro}/>
+                    <Route path="/evaport/about" component={About} />
+                    <Route path="/evaport/product" component={Product} />
+                    <Route path="/evaport/contact" component={Contact} />
+                    <Route path="/evaport/evacore" component={Evacore}/>
+                    <Route path="/evaport/evabrand" component={Evabrand}/>
+                    <Route path="/evaport/ecoevapro" component={Ecoevapro}/>
                 </Switch>
             </Router>
             <Footer />

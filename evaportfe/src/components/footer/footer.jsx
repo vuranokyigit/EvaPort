@@ -20,13 +20,13 @@ const Footer = () => {
                             <h3>{t('footerProductsTitle')}</h3>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="/eva/evacore">Evacore</a>
+                                    <a href="/evaport/evacore">Evacore</a>
                                 </li>
                                 <li>
-                                    <a href="/eva/evabrand">Evabrand</a>
+                                    <a href="/evaport/evabrand">Evabrand</a>
                                 </li>
                                 <li>
-                                    <a href="/eva/ecoevapro">Ecoevapro</a>
+                                    <a href="/evaport/ecoevapro">Ecoevapro</a>
                                 </li>
                             </ul>
                         </div>
@@ -34,13 +34,13 @@ const Footer = () => {
                             <h3>{t('footerCompanyTitle')}</h3>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="/eva/about">{t('footerCompanyLink1')}</a>
+                                    <a href="/evaport/about">{t('footerCompanyLink1')}</a>
                                 </li>
                                 <li>
-                                    <a href="/eva/product">{t('footerCompanyLink2')}</a>
+                                    <a href="/evaport/product">{t('footerCompanyLink2')}</a>
                                 </li>
                                 <li>
-                                    <a href="/eva/contact">{t('footerCompanyLink3')}</a>
+                                    <a href="/evaport/contact">{t('footerCompanyLink3')}</a>
                                 </li>
                             </ul>
                         </div>
@@ -59,10 +59,7 @@ const Footer = () => {
                                 <h3>
                                     +351 223 204 030/PT
                                 </h3>
-                                <h3>
-                                    +90 212 243 64 55/TR
-                                </h3>
-                                <a href="/eva/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white"}}>{t('footerContactButton')}</button></a>
+                                <a href="/evaport/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white"}}>{t('footerContactButton')}</button></a>
                             </div>
 
                         </div>
@@ -70,13 +67,13 @@ const Footer = () => {
                     <div className="row text-center">
                         <div className="container">
                         <div className="col-12">
-                            <a href="https://unique-florentine-94c5b3.netlify.app"><img style={{width:"50%"}}  src="/assets/EVAboldlight.png" alt=" "/></a>
+                            <a href="http://localhost:3000"><img style={{width:"50%"}}  src="/assets/EVAboldlight.png" alt=" "/></a>
                         </div>
                         </div>
                     </div>
                 </div>
                 <div className="copyRight">
-                    <p className="copyright" style={{ color: "whitesmoke", fontSize: "1rem"}}> &copy; {new Date().getFullYear()} {t('footerCopyRightText')} EVACARE  </p>
+                    <p className="copyright" style={{ color: "whitesmoke", fontSize: "1rem"}}> &copy; {new Date().getFullYear()} {t('footerCopyRightText')} EVAPORT  </p>
                 </div>
             </footer>
 

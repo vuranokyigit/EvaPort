@@ -1,8 +1,8 @@
-const BASE_URL = 'http://localhost:3333/evaport/contact';
+const BASEURL = 'http://localhost:3333/evaport/contact';
 
 const sendContactForm = async (contactData) => {
     try {
-        const response = await fetch(BASE_URL, {
+        const response = await fetch(BASEURL, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
