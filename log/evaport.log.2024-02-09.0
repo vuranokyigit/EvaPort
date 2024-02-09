@@ -1,0 +1,747 @@
+2024-02-09T14:55:20.794+03:00  INFO 75688 --- [restartedMain] com.Evaport.EvaPortApp                   : Starting EvaPortApp using Java 20.0.1 with PID 75688 (/Users/fikriyigitvuranok/Desktop/Full Stack APPS/EvaPort/target/classes started by fikriyigitvuranok in /Users/fikriyigitvuranok/Desktop/Full Stack APPS/EvaPort)
+2024-02-09T14:55:20.801+03:00  INFO 75688 --- [restartedMain] com.Evaport.EvaPortApp                   : The following 1 profile is active: "react"
+2024-02-09T14:55:20.854+03:00  INFO 75688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-09T14:55:20.855+03:00  INFO 75688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-09T14:55:22.203+03:00  INFO 75688 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-09T14:55:22.229+03:00  INFO 75688 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2024-02-09T14:55:22.903+03:00  INFO 75688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-09T14:55:22.914+03:00  INFO 75688 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09T14:55:22.915+03:00  INFO 75688 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-02-09T14:55:22.969+03:00  INFO 75688 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09T14:55:22.970+03:00  INFO 75688 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2115 ms
+2024-02-09T14:55:23.070+03:00  INFO 75688 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-09T14:55:23.311+03:00  INFO 75688 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:67f462b6-477c-4007-a951-f2be97a3cf9c user=SA
+2024-02-09T14:55:23.313+03:00  INFO 75688 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-09T14:55:23.323+03:00  INFO 75688 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:67f462b6-477c-4007-a951-f2be97a3cf9c'
+2024-02-09T14:55:23.360+03:00 DEBUG 75688 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-02-09T14:55:23.360+03:00 DEBUG 75688 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2024-02-09T14:55:23.849+03:00  INFO 75688 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-09T14:55:24.353+03:00  INFO 75688 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-09T14:55:24.518+03:00  WARN 75688 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-09T14:55:24.662+03:00 DEBUG 75688 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-09T14:55:24.759+03:00 DEBUG 75688 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2024-02-09T14:55:25.103+03:00 DEBUG 75688 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-02-09T14:55:25.114+03:00 DEBUG 75688 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-02-09T14:55:25.162+03:00  WARN 75688 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-09T14:55:25.606+03:00  INFO 75688 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-09T14:55:25.687+03:00  INFO 75688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-09T14:55:25.758+03:00  INFO 75688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-02-09T14:55:25.759+03:00  INFO 75688 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09T14:55:25.759+03:00  INFO 75688 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-02-09T14:55:25.772+03:00  INFO 75688 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-02-09T14:55:25.773+03:00  INFO 75688 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 81 ms
+2024-02-09T14:55:25.783+03:00  INFO 75688 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/admin'
+2024-02-09T14:55:25.801+03:00 DEBUG 75688 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 1 mappings in 'requestMappingHandlerMapping'
+2024-02-09T14:55:26.009+03:00 DEBUG 75688 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-02-09T14:55:26.016+03:00 DEBUG 75688 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-09T14:55:26.024+03:00  INFO 75688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-02-09T14:55:26.041+03:00  INFO 75688 --- [restartedMain] com.Evaport.EvaPortApp                   : Started EvaPortApp in 5.67 seconds (process running for 6.609)
+2024-02-09T14:55:26.302+03:00  INFO 75688 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09T14:55:26.302+03:00  INFO 75688 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-09T14:55:26.302+03:00 DEBUG 75688 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-02-09T14:55:26.302+03:00 DEBUG 75688 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-02-09T14:55:26.302+03:00 DEBUG 75688 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-02-09T14:55:26.303+03:00 DEBUG 75688 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3d90b477
+2024-02-09T14:55:26.304+03:00 DEBUG 75688 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@59387836
+2024-02-09T14:55:26.304+03:00 DEBUG 75688 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-02-09T14:55:26.304+03:00  INFO 75688 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-02-09T14:55:30.970+03:00  INFO 75688 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-09T14:55:31.186+03:00  WARN 75688 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-02-09T14:55:31.188+03:00  INFO 75688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-09T14:55:31.190+03:00  INFO 75688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-09T16:16:46.910+03:00  INFO 78566 --- [restartedMain] com.Evaport.EvaPortApp                   : Starting EvaPortApp using Java 20.0.1 with PID 78566 (/Users/fikriyigitvuranok/Desktop/Full Stack APPS/EvaPort/target/classes started by fikriyigitvuranok in /Users/fikriyigitvuranok/Desktop/Full Stack APPS/EvaPort)
+2024-02-09T16:16:46.913+03:00  INFO 78566 --- [restartedMain] com.Evaport.EvaPortApp                   : The following 1 profile is active: "react"
+2024-02-09T16:16:46.991+03:00  INFO 78566 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-09T16:16:46.991+03:00  INFO 78566 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-09T16:16:49.093+03:00  INFO 78566 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-09T16:16:49.135+03:00  INFO 78566 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 0 JPA repository interfaces.
+2024-02-09T16:16:50.539+03:00  INFO 78566 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3333 (http)
+2024-02-09T16:16:50.555+03:00  INFO 78566 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09T16:16:50.556+03:00  INFO 78566 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-02-09T16:16:50.649+03:00  INFO 78566 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09T16:16:50.650+03:00  INFO 78566 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3658 ms
+2024-02-09T16:16:50.832+03:00  INFO 78566 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-09T16:16:51.558+03:00  INFO 78566 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:1ef8c2df-42ef-4478-9aef-b90cdc6d0caf user=SA
+2024-02-09T16:16:51.562+03:00  INFO 78566 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-09T16:16:51.586+03:00  INFO 78566 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1ef8c2df-42ef-4478-9aef-b90cdc6d0caf'
+2024-02-09T16:16:51.692+03:00 DEBUG 78566 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-02-09T16:16:51.693+03:00 DEBUG 78566 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2024-02-09T16:16:52.899+03:00  INFO 78566 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-09T16:16:53.730+03:00  INFO 78566 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-09T16:16:54.048+03:00  WARN 78566 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-09T16:16:54.327+03:00 DEBUG 78566 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-09T16:16:54.501+03:00 DEBUG 78566 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2024-02-09T16:16:55.208+03:00 DEBUG 78566 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-02-09T16:16:55.235+03:00 DEBUG 78566 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-02-09T16:16:55.330+03:00  WARN 78566 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-09T16:16:56.470+03:00  INFO 78566 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-09T16:16:56.637+03:00  INFO 78566 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3333 (http) with context path ''
+2024-02-09T16:16:56.847+03:00  INFO 78566 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-02-09T16:16:56.848+03:00  INFO 78566 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09T16:16:56.851+03:00  INFO 78566 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-02-09T16:16:56.915+03:00  INFO 78566 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-02-09T16:16:56.917+03:00  INFO 78566 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 272 ms
+2024-02-09T16:16:56.939+03:00  INFO 78566 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/admin'
+2024-02-09T16:16:56.971+03:00 DEBUG 78566 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 1 mappings in 'requestMappingHandlerMapping'
+2024-02-09T16:16:57.399+03:00 DEBUG 78566 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-02-09T16:16:57.426+03:00 DEBUG 78566 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-09T16:16:57.451+03:00  INFO 78566 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-02-09T16:16:57.496+03:00  INFO 78566 --- [restartedMain] com.Evaport.EvaPortApp                   : Started EvaPortApp in 11.316 seconds (process running for 13.023)
+2024-02-09T16:16:57.943+03:00  INFO 78566 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09T16:16:57.943+03:00  INFO 78566 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-09T16:16:57.943+03:00 DEBUG 78566 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-02-09T16:16:57.944+03:00 DEBUG 78566 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-02-09T16:16:57.944+03:00 DEBUG 78566 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-02-09T16:16:57.946+03:00 DEBUG 78566 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2325a891
+2024-02-09T16:16:57.947+03:00 DEBUG 78566 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5b7bed9b
+2024-02-09T16:16:57.948+03:00 DEBUG 78566 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-02-09T16:16:57.948+03:00  INFO 78566 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-02-09T16:38:33.791+03:00  WARN 78566 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s766ms).
+2024-02-09T18:39:30.286+03:00  WARN 78566 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h56s613ms).
+2024-02-09T19:33:53.142+03:00  WARN 78566 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m22s856ms).
+2024-02-09T20:34:20.303+03:00  WARN 78566 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m26s441ms).
+2024-02-09T21:28:07.930+03:00  WARN 78566 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m48s73ms).
+2024-02-09T22:29:12.541+03:00  INFO 2661 --- [restartedMain] com.Evaport.EvaPortApp                   : Starting EvaPortApp using Java 20.0.1 with PID 2661 (/Users/fikriyigitvuranok/Desktop/Full Stack APPS/EvaPort/target/classes started by fikriyigitvuranok in /Users/fikriyigitvuranok/Desktop/Full Stack APPS/EvaPort)
+2024-02-09T22:29:12.543+03:00  INFO 2661 --- [restartedMain] com.Evaport.EvaPortApp                   : The following 1 profile is active: "react"
+2024-02-09T22:29:12.590+03:00  INFO 2661 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-09T22:29:12.590+03:00  INFO 2661 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-09T22:29:13.712+03:00  INFO 2661 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-09T22:29:13.736+03:00  INFO 2661 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2024-02-09T22:29:14.371+03:00  INFO 2661 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3333 (http)
+2024-02-09T22:29:14.380+03:00  INFO 2661 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09T22:29:14.380+03:00  INFO 2661 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-02-09T22:29:14.454+03:00  INFO 2661 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09T22:29:14.455+03:00  INFO 2661 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1863 ms
+2024-02-09T22:29:14.558+03:00  INFO 2661 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-09T22:29:14.784+03:00  INFO 2661 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:7c222570-7c2d-4404-a855-8602110bab12 user=SA
+2024-02-09T22:29:14.786+03:00  INFO 2661 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-09T22:29:14.797+03:00  INFO 2661 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:7c222570-7c2d-4404-a855-8602110bab12'
+2024-02-09T22:29:14.840+03:00 DEBUG 2661 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-02-09T22:29:14.840+03:00 DEBUG 2661 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2024-02-09T22:29:15.337+03:00  INFO 2661 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-09T22:29:15.705+03:00  INFO 2661 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-09T22:29:15.858+03:00  WARN 2661 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-09T22:29:15.977+03:00 DEBUG 2661 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-09T22:29:16.083+03:00 DEBUG 2661 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2024-02-09T22:29:16.479+03:00 DEBUG 2661 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-02-09T22:29:16.488+03:00 DEBUG 2661 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-02-09T22:29:16.535+03:00  WARN 2661 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-09T22:29:16.967+03:00  INFO 2661 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-09T22:29:17.045+03:00  INFO 2661 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3333 (http) with context path ''
+2024-02-09T22:29:17.118+03:00  INFO 2661 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-02-09T22:29:17.119+03:00  INFO 2661 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09T22:29:17.119+03:00  INFO 2661 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-02-09T22:29:17.132+03:00  INFO 2661 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-02-09T22:29:17.132+03:00  INFO 2661 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 84 ms
+2024-02-09T22:29:17.142+03:00  INFO 2661 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/admin'
+2024-02-09T22:29:17.159+03:00 DEBUG 2661 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 1 mappings in 'requestMappingHandlerMapping'
+2024-02-09T22:29:17.389+03:00 DEBUG 2661 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-02-09T22:29:17.397+03:00 DEBUG 2661 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-09T22:29:17.401+03:00  INFO 2661 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-02-09T22:29:17.421+03:00  INFO 2661 --- [restartedMain] com.Evaport.EvaPortApp                   : Started EvaPortApp in 5.301 seconds (process running for 6.067)
+2024-02-09T22:29:17.585+03:00  INFO 2661 --- [RMI TCP Connection(2)-192.168.1.3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09T22:29:17.585+03:00  INFO 2661 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-09T22:29:17.585+03:00 DEBUG 2661 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-02-09T22:29:17.585+03:00 DEBUG 2661 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-02-09T22:29:17.585+03:00 DEBUG 2661 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-02-09T22:29:17.586+03:00 DEBUG 2661 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6e414bde
+2024-02-09T22:29:17.587+03:00 DEBUG 2661 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4a6afea3
+2024-02-09T22:29:17.587+03:00 DEBUG 2661 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-02-09T22:29:17.587+03:00  INFO 2661 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-02-09T22:30:32.182+03:00 DEBUG 2661 --- [http-nio-3333-exec-1] o.s.web.servlet.DispatcherServlet        : OPTIONS "/evaport/contact", parameters={}
+2024-02-09T22:30:32.195+03:00 DEBUG 2661 --- [http-nio-3333-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#submitContactForm(ContactForm)
+2024-02-09T22:30:32.273+03:00 DEBUG 2661 --- [http-nio-3333-exec-1] o.s.web.cors.DefaultCorsProcessor        : Reject: 'http://localhost:3000' origin is not allowed
+2024-02-09T22:30:32.278+03:00 DEBUG 2661 --- [http-nio-3333-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 403 FORBIDDEN
+2024-02-09T22:35:17.403+03:00 DEBUG 2661 --- [http-nio-3333-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/evaport/contact", parameters={}
+2024-02-09T22:35:17.410+03:00 DEBUG 2661 --- [http-nio-3333-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#showContactForm(Model)
+2024-02-09T22:35:17.541+03:00 DEBUG 2661 --- [http-nio-3333-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-02-09T22:35:17.726+03:00 ERROR 2661 --- [http-nio-3333-exec-3] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-3333-exec-3] Exception processing template "contactForm": Error resolving template [contactForm], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [contactForm], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+
+2024-02-09T22:35:17.734+03:00 DEBUG 2661 --- [http-nio-3333-exec-3] o.s.web.servlet.DispatcherServlet        : Error rendering view [org.thymeleaf.spring6.view.ThymeleafView@7bc4e8c]
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [contactForm], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+
+2024-02-09T22:35:17.736+03:00 DEBUG 2661 --- [http-nio-3333-exec-3] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [contactForm], template might not exist or might not be accessible by any of the configured Template Resolvers
+2024-02-09T22:35:17.737+03:00 ERROR 2661 --- [http-nio-3333-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [contactForm], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [contactForm], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+
+2024-02-09T22:35:17.745+03:00 DEBUG 2661 --- [http-nio-3333-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-02-09T22:35:17.747+03:00 DEBUG 2661 --- [http-nio-3333-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-02-09T22:35:17.764+03:00 DEBUG 2661 --- [http-nio-3333-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-02-09T22:35:17.772+03:00 DEBUG 2661 --- [http-nio-3333-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2024-02-09T22:35:17.965+03:00 DEBUG 2661 --- [http-nio-3333-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2024-02-09T22:35:17.971+03:00 DEBUG 2661 --- [http-nio-3333-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-09T22:35:17.974+03:00 DEBUG 2661 --- [http-nio-3333-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-02-09T22:35:17.974+03:00 DEBUG 2661 --- [http-nio-3333-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-02-09T22:35:17.975+03:00 DEBUG 2661 --- [http-nio-3333-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-02-09T22:35:17.975+03:00 DEBUG 2661 --- [http-nio-3333-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-02-09T22:35:17.997+03:00 DEBUG 2661 --- [http-nio-3333-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2024-02-09T22:35:18.001+03:00 DEBUG 2661 --- [http-nio-3333-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Feb 09 22:35:17 TRT 2024, status=404, error=Not Found, message=No message available,  (truncated)...]
+2024-02-09T22:35:18.025+03:00 DEBUG 2661 --- [http-nio-3333-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-02-09T22:36:41.857+03:00 DEBUG 2661 --- [http-nio-3333-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/evaport/contact", parameters={}
+2024-02-09T22:36:41.859+03:00 DEBUG 2661 --- [http-nio-3333-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#submitContactForm(ContactForm)
+2024-02-09T22:36:41.904+03:00 DEBUG 2661 --- [http-nio-3333-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.Evaport.ContactForm@509dbbc7]
+2024-02-09T22:36:44.133+03:00 DEBUG 2661 --- [http-nio-3333-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-09T22:36:44.134+03:00 DEBUG 2661 --- [http-nio-3333-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["{"message":"success"}"]
+2024-02-09T22:36:44.135+03:00 DEBUG 2661 --- [http-nio-3333-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-02-09T22:37:56.911+03:00 DEBUG 2661 --- [http-nio-3333-exec-9] o.s.web.servlet.DispatcherServlet        : OPTIONS "/evaport/contact", parameters={}
+2024-02-09T22:37:56.913+03:00 DEBUG 2661 --- [http-nio-3333-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#submitContactForm(ContactForm)
+2024-02-09T22:37:56.914+03:00 DEBUG 2661 --- [http-nio-3333-exec-9] o.s.web.cors.DefaultCorsProcessor        : Reject: 'http://localhost:3000' origin is not allowed
+2024-02-09T22:37:56.915+03:00 DEBUG 2661 --- [http-nio-3333-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 403 FORBIDDEN
+2024-02-09T22:38:00.283+03:00 DEBUG 2661 --- [http-nio-3333-exec-10] o.s.web.servlet.DispatcherServlet        : OPTIONS "/evaport/contact", parameters={}
+2024-02-09T22:38:00.284+03:00 DEBUG 2661 --- [http-nio-3333-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#submitContactForm(ContactForm)
+2024-02-09T22:38:00.285+03:00 DEBUG 2661 --- [http-nio-3333-exec-10] o.s.web.cors.DefaultCorsProcessor        : Reject: 'http://localhost:3000' origin is not allowed
+2024-02-09T22:38:00.295+03:00 DEBUG 2661 --- [http-nio-3333-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 403 FORBIDDEN
+2024-02-09T22:38:59.234+03:00 DEBUG 2661 --- [http-nio-3333-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/eva/contact", parameters={}
+2024-02-09T22:38:59.238+03:00 DEBUG 2661 --- [http-nio-3333-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-09T22:38:59.244+03:00 DEBUG 2661 --- [http-nio-3333-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-02-09T22:38:59.244+03:00 DEBUG 2661 --- [http-nio-3333-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-02-09T22:38:59.246+03:00 DEBUG 2661 --- [http-nio-3333-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2024-02-09T22:38:59.246+03:00 DEBUG 2661 --- [http-nio-3333-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-02-09T22:38:59.251+03:00 DEBUG 2661 --- [http-nio-3333-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-02-09T22:38:59.253+03:00 DEBUG 2661 --- [http-nio-3333-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Feb 09 22:38:59 TRT 2024, status=404, error=Not Found, message=No message available,  (truncated)...]
+2024-02-09T22:38:59.256+03:00 DEBUG 2661 --- [http-nio-3333-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-02-09T22:39:21.223+03:00  INFO 2661 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-09T22:39:21.452+03:00  WARN 2661 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-02-09T22:39:21.454+03:00  INFO 2661 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-09T22:39:21.458+03:00  INFO 2661 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-09T22:40:12.681+03:00  INFO 3039 --- [restartedMain] com.Evaport.EvaPortApp                   : Starting EvaPortApp using Java 20.0.1 with PID 3039 (/Users/fikriyigitvuranok/Desktop/Full Stack APPS/EvaPort/target/classes started by fikriyigitvuranok in /Users/fikriyigitvuranok/Desktop/Full Stack APPS/EvaPort)
+2024-02-09T22:40:12.683+03:00  INFO 3039 --- [restartedMain] com.Evaport.EvaPortApp                   : The following 1 profile is active: "react"
+2024-02-09T22:40:12.721+03:00  INFO 3039 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-09T22:40:12.721+03:00  INFO 3039 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-09T22:40:13.557+03:00  INFO 3039 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-09T22:40:13.575+03:00  INFO 3039 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-02-09T22:40:14.076+03:00  INFO 3039 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3333 (http)
+2024-02-09T22:40:14.084+03:00  INFO 3039 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09T22:40:14.084+03:00  INFO 3039 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-02-09T22:40:14.123+03:00  INFO 3039 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09T22:40:14.123+03:00  INFO 3039 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1401 ms
+2024-02-09T22:40:14.194+03:00  INFO 3039 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-09T22:40:14.363+03:00  INFO 3039 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ab87eb3b-89c5-4c02-876f-a7221397a40f user=SA
+2024-02-09T22:40:14.365+03:00  INFO 3039 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-09T22:40:14.374+03:00  INFO 3039 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ab87eb3b-89c5-4c02-876f-a7221397a40f'
+2024-02-09T22:40:14.408+03:00 DEBUG 3039 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-02-09T22:40:14.409+03:00 DEBUG 3039 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2024-02-09T22:40:14.782+03:00  INFO 3039 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-09T22:40:15.129+03:00  INFO 3039 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-09T22:40:15.247+03:00  WARN 3039 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-09T22:40:15.365+03:00 DEBUG 3039 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-09T22:40:15.441+03:00 DEBUG 3039 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2024-02-09T22:40:15.758+03:00 DEBUG 3039 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-02-09T22:40:15.767+03:00 DEBUG 3039 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-02-09T22:40:15.821+03:00  WARN 3039 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-09T22:40:16.183+03:00  INFO 3039 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-09T22:40:16.249+03:00  INFO 3039 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3333 (http) with context path ''
+2024-02-09T22:40:16.306+03:00  INFO 3039 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-02-09T22:40:16.306+03:00  INFO 3039 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09T22:40:16.307+03:00  INFO 3039 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-02-09T22:40:16.320+03:00  INFO 3039 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-02-09T22:40:16.320+03:00  INFO 3039 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 69 ms
+2024-02-09T22:40:16.330+03:00  INFO 3039 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/admin'
+2024-02-09T22:40:16.345+03:00 DEBUG 3039 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 1 mappings in 'requestMappingHandlerMapping'
+2024-02-09T22:40:16.564+03:00 DEBUG 3039 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-02-09T22:40:16.572+03:00 DEBUG 3039 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-09T22:40:16.576+03:00  INFO 3039 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-02-09T22:40:16.591+03:00  INFO 3039 --- [restartedMain] com.Evaport.EvaPortApp                   : Started EvaPortApp in 4.428 seconds (process running for 5.153)
+2024-02-09T22:40:16.822+03:00  INFO 3039 --- [RMI TCP Connection(2)-192.168.1.3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09T22:40:16.822+03:00  INFO 3039 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-09T22:40:16.823+03:00 DEBUG 3039 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-02-09T22:40:16.823+03:00 DEBUG 3039 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-02-09T22:40:16.823+03:00 DEBUG 3039 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-02-09T22:40:16.824+03:00 DEBUG 3039 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@602f1b48
+2024-02-09T22:40:16.824+03:00 DEBUG 3039 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@23e74c06
+2024-02-09T22:40:16.824+03:00 DEBUG 3039 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-02-09T22:40:16.824+03:00  INFO 3039 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-09T22:40:25.575+03:00 DEBUG 3039 --- [http-nio-3333-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/evaport/contact", parameters={}
+2024-02-09T22:40:25.582+03:00 DEBUG 3039 --- [http-nio-3333-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#submitContactForm(ContactForm)
+2024-02-09T22:40:25.667+03:00 DEBUG 3039 --- [http-nio-3333-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.Evaport.ContactForm@6fa60088]
+2024-02-09T22:40:28.105+03:00 DEBUG 3039 --- [http-nio-3333-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-09T22:40:28.106+03:00 DEBUG 3039 --- [http-nio-3333-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["{"message":"success"}"]
+2024-02-09T22:40:28.114+03:00 DEBUG 3039 --- [http-nio-3333-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-02-09T22:40:58.371+03:00 DEBUG 3039 --- [http-nio-3333-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/evaport/contact", parameters={}
+2024-02-09T22:40:58.372+03:00 DEBUG 3039 --- [http-nio-3333-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#showContactForm(Model)
+2024-02-09T22:40:58.387+03:00 DEBUG 3039 --- [http-nio-3333-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-02-09T22:40:58.532+03:00 ERROR 3039 --- [http-nio-3333-exec-3] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-3333-exec-3] Exception processing template "contactForm": Error resolving template [contactForm], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [contactForm], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+
+2024-02-09T22:40:58.536+03:00 DEBUG 3039 --- [http-nio-3333-exec-3] o.s.web.servlet.DispatcherServlet        : Error rendering view [org.thymeleaf.spring6.view.ThymeleafView@2f211e09]
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [contactForm], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+
+2024-02-09T22:40:58.538+03:00 DEBUG 3039 --- [http-nio-3333-exec-3] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [contactForm], template might not exist or might not be accessible by any of the configured Template Resolvers
+2024-02-09T22:40:58.538+03:00 ERROR 3039 --- [http-nio-3333-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [contactForm], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [contactForm], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.11.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+
+2024-02-09T22:40:58.542+03:00 DEBUG 3039 --- [http-nio-3333-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-02-09T22:40:58.543+03:00 DEBUG 3039 --- [http-nio-3333-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-02-09T22:40:58.556+03:00 DEBUG 3039 --- [http-nio-3333-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-02-09T22:40:58.560+03:00 DEBUG 3039 --- [http-nio-3333-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2024-02-09T22:41:09.891+03:00 DEBUG 3039 --- [http-nio-3333-exec-4] o.s.web.servlet.DispatcherServlet        : OPTIONS "/evaport/contact", parameters={}
+2024-02-09T22:41:09.892+03:00 DEBUG 3039 --- [http-nio-3333-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#submitContactForm(ContactForm)
+2024-02-09T22:41:09.904+03:00 DEBUG 3039 --- [http-nio-3333-exec-4] o.s.web.cors.DefaultCorsProcessor        : Reject: 'http://localhost:3000' origin is not allowed
+2024-02-09T22:41:09.905+03:00 DEBUG 3039 --- [http-nio-3333-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 403 FORBIDDEN
+2024-02-09T22:42:04.486+03:00  INFO 3039 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-09T22:42:04.703+03:00  WARN 3039 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-02-09T22:42:04.705+03:00  INFO 3039 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-09T22:42:04.709+03:00  INFO 3039 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-09T22:42:07.534+03:00  INFO 3097 --- [restartedMain] com.Evaport.EvaPortApp                   : Starting EvaPortApp using Java 20.0.1 with PID 3097 (/Users/fikriyigitvuranok/Desktop/Full Stack APPS/EvaPort/target/classes started by fikriyigitvuranok in /Users/fikriyigitvuranok/Desktop/Full Stack APPS/EvaPort)
+2024-02-09T22:42:07.535+03:00  INFO 3097 --- [restartedMain] com.Evaport.EvaPortApp                   : The following 1 profile is active: "react"
+2024-02-09T22:42:07.571+03:00  INFO 3097 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-09T22:42:07.571+03:00  INFO 3097 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-09T22:42:08.429+03:00  INFO 3097 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-09T22:42:08.451+03:00  INFO 3097 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-02-09T22:42:08.934+03:00  INFO 3097 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3333 (http)
+2024-02-09T22:42:08.941+03:00  INFO 3097 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09T22:42:08.942+03:00  INFO 3097 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-02-09T22:42:08.981+03:00  INFO 3097 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09T22:42:08.981+03:00  INFO 3097 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1410 ms
+2024-02-09T22:42:09.049+03:00  INFO 3097 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-09T22:42:09.219+03:00  INFO 3097 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:61079c5f-958c-4499-b98a-858952f72dea user=SA
+2024-02-09T22:42:09.221+03:00  INFO 3097 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-09T22:42:09.229+03:00  INFO 3097 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:61079c5f-958c-4499-b98a-858952f72dea'
+2024-02-09T22:42:09.262+03:00 DEBUG 3097 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-02-09T22:42:09.262+03:00 DEBUG 3097 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2024-02-09T22:42:09.680+03:00  INFO 3097 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-09T22:42:10.036+03:00  INFO 3097 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-09T22:42:10.155+03:00  WARN 3097 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-09T22:42:10.256+03:00 DEBUG 3097 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-09T22:42:10.337+03:00 DEBUG 3097 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2024-02-09T22:42:10.629+03:00 DEBUG 3097 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-02-09T22:42:10.638+03:00 DEBUG 3097 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-02-09T22:42:10.683+03:00  WARN 3097 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-09T22:42:11.053+03:00  INFO 3097 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-09T22:42:11.113+03:00  INFO 3097 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3333 (http) with context path ''
+2024-02-09T22:42:11.175+03:00  INFO 3097 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-02-09T22:42:11.175+03:00  INFO 3097 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09T22:42:11.175+03:00  INFO 3097 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-02-09T22:42:11.188+03:00  INFO 3097 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-02-09T22:42:11.189+03:00  INFO 3097 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 73 ms
+2024-02-09T22:42:11.203+03:00  INFO 3097 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/admin'
+2024-02-09T22:42:11.220+03:00 DEBUG 3097 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 1 mappings in 'requestMappingHandlerMapping'
+2024-02-09T22:42:11.441+03:00 DEBUG 3097 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-02-09T22:42:11.448+03:00 DEBUG 3097 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-09T22:42:11.455+03:00  INFO 3097 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-02-09T22:42:11.470+03:00  INFO 3097 --- [restartedMain] com.Evaport.EvaPortApp                   : Started EvaPortApp in 4.282 seconds (process running for 4.854)
+2024-02-09T22:42:11.986+03:00  INFO 3097 --- [RMI TCP Connection(2)-192.168.1.3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09T22:42:11.986+03:00  INFO 3097 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-09T22:42:11.986+03:00 DEBUG 3097 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-02-09T22:42:11.986+03:00 DEBUG 3097 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-02-09T22:42:11.986+03:00 DEBUG 3097 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-02-09T22:42:11.987+03:00 DEBUG 3097 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@791a7cee
+2024-02-09T22:42:11.988+03:00 DEBUG 3097 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@339a077
+2024-02-09T22:42:11.988+03:00 DEBUG 3097 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-02-09T22:42:11.988+03:00  INFO 3097 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-02-09T22:42:31.153+03:00 DEBUG 3097 --- [http-nio-3333-exec-1] o.s.web.servlet.DispatcherServlet        : OPTIONS "/evaport/contact", parameters={}
+2024-02-09T22:42:31.159+03:00 DEBUG 3097 --- [http-nio-3333-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#submitContactForm(ContactForm)
+2024-02-09T22:42:31.208+03:00 DEBUG 3097 --- [http-nio-3333-exec-1] o.s.web.cors.DefaultCorsProcessor        : Reject: 'http://localhost:3000' origin is not allowed
+2024-02-09T22:42:31.212+03:00 DEBUG 3097 --- [http-nio-3333-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 403 FORBIDDEN
+2024-02-09T22:47:26.614+03:00 DEBUG 3097 --- [http-nio-3333-exec-3] o.s.web.servlet.DispatcherServlet        : OPTIONS "/evaport/contact", parameters={}
+2024-02-09T22:47:26.621+03:00 DEBUG 3097 --- [http-nio-3333-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#submitContactForm(ContactForm)
+2024-02-09T22:47:26.627+03:00 DEBUG 3097 --- [http-nio-3333-exec-3] o.s.web.cors.DefaultCorsProcessor        : Reject: 'http://localhost:3000' origin is not allowed
+2024-02-09T22:47:26.631+03:00 DEBUG 3097 --- [http-nio-3333-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 403 FORBIDDEN
+2024-02-09T22:48:54.972+03:00 DEBUG 3097 --- [http-nio-3333-exec-5] o.s.web.servlet.DispatcherServlet        : OPTIONS "/evaport/contact", parameters={}
+2024-02-09T22:48:54.977+03:00 DEBUG 3097 --- [http-nio-3333-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#submitContactForm(ContactForm)
+2024-02-09T22:48:54.982+03:00 DEBUG 3097 --- [http-nio-3333-exec-5] o.s.web.cors.DefaultCorsProcessor        : Reject: 'http://localhost:3000' origin is not allowed
+2024-02-09T22:48:54.986+03:00 DEBUG 3097 --- [http-nio-3333-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 403 FORBIDDEN
+2024-02-09T22:49:00.945+03:00 DEBUG 3097 --- [http-nio-3333-exec-6] o.s.web.servlet.DispatcherServlet        : OPTIONS "/evaport/contact", parameters={}
+2024-02-09T22:49:00.947+03:00 DEBUG 3097 --- [http-nio-3333-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#submitContactForm(ContactForm)
+2024-02-09T22:49:00.948+03:00 DEBUG 3097 --- [http-nio-3333-exec-6] o.s.web.cors.DefaultCorsProcessor        : Reject: 'http://localhost:3000' origin is not allowed
+2024-02-09T22:49:00.951+03:00 DEBUG 3097 --- [http-nio-3333-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 403 FORBIDDEN
+2024-02-09T22:52:20.948+03:00  INFO 3097 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-09T22:52:21.204+03:00  WARN 3097 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-02-09T22:52:21.206+03:00  INFO 3097 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-09T22:52:21.213+03:00  INFO 3097 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-09T22:52:24.555+03:00  INFO 3415 --- [restartedMain] com.Evaport.EvaPortApp                   : Starting EvaPortApp using Java 20.0.1 with PID 3415 (/Users/fikriyigitvuranok/Desktop/Full Stack APPS/EvaPort/target/classes started by fikriyigitvuranok in /Users/fikriyigitvuranok/Desktop/Full Stack APPS/EvaPort)
+2024-02-09T22:52:24.557+03:00  INFO 3415 --- [restartedMain] com.Evaport.EvaPortApp                   : The following 1 profile is active: "react"
+2024-02-09T22:52:24.594+03:00  INFO 3415 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-09T22:52:24.594+03:00  INFO 3415 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-09T22:52:25.496+03:00  INFO 3415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-09T22:52:25.521+03:00  INFO 3415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-02-09T22:52:26.020+03:00  INFO 3415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3333 (http)
+2024-02-09T22:52:26.028+03:00  INFO 3415 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09T22:52:26.028+03:00  INFO 3415 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-02-09T22:52:26.068+03:00  INFO 3415 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-09T22:52:26.068+03:00  INFO 3415 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1473 ms
+2024-02-09T22:52:26.135+03:00  INFO 3415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-09T22:52:26.304+03:00  INFO 3415 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:492f39be-f236-43f5-ad89-a2a4a2f017b2 user=SA
+2024-02-09T22:52:26.306+03:00  INFO 3415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-09T22:52:26.315+03:00  INFO 3415 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:492f39be-f236-43f5-ad89-a2a4a2f017b2'
+2024-02-09T22:52:26.348+03:00 DEBUG 3415 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-02-09T22:52:26.348+03:00 DEBUG 3415 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2024-02-09T22:52:26.732+03:00  INFO 3415 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-09T22:52:27.087+03:00  INFO 3415 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-09T22:52:27.211+03:00  WARN 3415 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-09T22:52:27.314+03:00 DEBUG 3415 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-09T22:52:27.400+03:00 DEBUG 3415 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2024-02-09T22:52:27.778+03:00 DEBUG 3415 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-02-09T22:52:27.787+03:00 DEBUG 3415 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-02-09T22:52:27.827+03:00  WARN 3415 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-09T22:52:28.224+03:00  INFO 3415 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-09T22:52:28.285+03:00  INFO 3415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3333 (http) with context path ''
+2024-02-09T22:52:28.345+03:00  INFO 3415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-02-09T22:52:28.346+03:00  INFO 3415 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-09T22:52:28.346+03:00  INFO 3415 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-02-09T22:52:28.357+03:00  INFO 3415 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-02-09T22:52:28.357+03:00  INFO 3415 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 69 ms
+2024-02-09T22:52:28.367+03:00  INFO 3415 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/admin'
+2024-02-09T22:52:28.385+03:00 DEBUG 3415 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 1 mappings in 'requestMappingHandlerMapping'
+2024-02-09T22:52:28.566+03:00 DEBUG 3415 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-02-09T22:52:28.573+03:00 DEBUG 3415 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-09T22:52:28.579+03:00  INFO 3415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-02-09T22:52:28.594+03:00  INFO 3415 --- [restartedMain] com.Evaport.EvaPortApp                   : Started EvaPortApp in 4.434 seconds (process running for 5.04)
+2024-02-09T22:52:28.943+03:00  INFO 3415 --- [RMI TCP Connection(2)-192.168.1.3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-09T22:52:28.943+03:00  INFO 3415 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-09T22:52:28.944+03:00 DEBUG 3415 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-02-09T22:52:28.944+03:00 DEBUG 3415 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-02-09T22:52:28.944+03:00 DEBUG 3415 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-02-09T22:52:28.945+03:00 DEBUG 3415 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1d3581af
+2024-02-09T22:52:28.945+03:00 DEBUG 3415 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@674d5b2
+2024-02-09T22:52:28.945+03:00 DEBUG 3415 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-02-09T22:52:28.945+03:00  INFO 3415 --- [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-02-09T22:53:05.168+03:00 DEBUG 3415 --- [http-nio-3333-exec-1] o.s.web.servlet.DispatcherServlet        : OPTIONS "/evaport/contact", parameters={}
+2024-02-09T22:53:05.175+03:00 DEBUG 3415 --- [http-nio-3333-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#submitContactForm(ContactForm)
+2024-02-09T22:53:05.242+03:00 DEBUG 3415 --- [http-nio-3333-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-02-09T22:53:05.248+03:00 DEBUG 3415 --- [http-nio-3333-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/evaport/contact", parameters={}
+2024-02-09T22:53:05.249+03:00 DEBUG 3415 --- [http-nio-3333-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.Evaport.ContactControllerPort#submitContactForm(ContactForm)
+2024-02-09T22:53:05.294+03:00 DEBUG 3415 --- [http-nio-3333-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.Evaport.ContactForm@294f2f21]
+2024-02-09T22:53:07.964+03:00 DEBUG 3415 --- [http-nio-3333-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-09T22:53:07.965+03:00 DEBUG 3415 --- [http-nio-3333-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["{"message":"success"}"]
+2024-02-09T22:53:07.968+03:00 DEBUG 3415 --- [http-nio-3333-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-02-09T23:10:57.249+03:00  WARN 3415 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m30s646ms).
+2024-02-09T23:44:23.339+03:00  WARN 3415 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m25s803ms).
+2024-02-09T23:57:36.374+03:00  WARN 3415 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m43s15ms).
