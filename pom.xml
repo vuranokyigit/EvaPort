@@ -188,7 +188,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.evacorp.Eva.EvaApplication</mainClass>
+                    <mainClass>com.EvaPort.EvaPortApp</mainClass>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
