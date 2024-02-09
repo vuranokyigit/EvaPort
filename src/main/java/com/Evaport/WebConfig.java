@@ -10,7 +10,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("https://evacare.netlify.app/eva/contact")
+                .allowedOrigins("https://evacare.netlify.app/evaport/contact")
                 .allowedMethods("POST")
                 .allowedHeaders("*")
                 .allowCredentials(true);

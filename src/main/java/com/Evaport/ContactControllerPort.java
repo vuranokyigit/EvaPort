@@ -14,14 +14,14 @@ public class ContactControllerPort {
     @Autowired
     private JavaMailSender mailSender;
 
-    @GetMapping({"/", "/eva/contact"})
+    @GetMapping({"/", "/evaport/contact"})
     public String showContactForm(Model model) {
         model.addAttribute("contactForm", new ContactForm());
         System.out.println("success");
         return "contactForm";
     }
 
-    @PostMapping("/eva/contact")
+    @PostMapping("/evaport/contact")
     public ResponseEntity<String> submitContactForm(@RequestBody ContactForm contactForm) {
         // E-posta gönderme işlemleri
         SimpleMailMessage message = new SimpleMailMessage();
