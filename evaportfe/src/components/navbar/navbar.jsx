@@ -41,7 +41,7 @@ const MyNavbar = () => {
 
                 <Navbar.Collapse className={`col-md-12 ${isNavToggled ? 'nav-to-left' : ''}`} id="responsive-navbar-nav">
                     <div className="col-md-4 nav-animate" id="mainLogoClass">
-                        <a  href="https://unique-florentine-94c5b3.netlify.app/"><img className="logoImage" src="/assets/EVAboldlight.png" alt=" "/></a>
+                        <a  href="https://evaport.pt/"><img className="logoImage" src="/assets/EVAboldlight.png" alt=" "/></a>
                     </div>
                     <div className="col-md-4" id="navbarContentTextRoute">
                     <Nav className="ml-auto" id="navbarBar">

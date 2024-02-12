@@ -67,7 +67,7 @@ const Footer = () => {
                     <div className="row text-center">
                         <div className="container">
                         <div className="col-12">
-                            <a href="http://localhost:3000"><img style={{width:"50%"}}  src="/assets/EVAboldlight.png" alt=" "/></a>
+                            <a href="https://evaport.pt/"><img style={{width:"50%"}}  src="/assets/EVAboldlight.png" alt=" "/></a>
                         </div>
                         </div>
                     </div>
