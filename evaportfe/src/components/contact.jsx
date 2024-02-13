@@ -49,7 +49,7 @@ const[showModal, setShowModal]=useState(false);
     return (
         <>
             <section
-            style={{ backgroundImage: 'url("/assets/2-min.png")' }}
+            style={{ backgroundImage: 'url("/assets/contactLines.jpeg")' }}
             className="home-section section-hero overlay slanted position-relative"
             id="home-section">
             <div className="container">

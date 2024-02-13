@@ -107,6 +107,16 @@ const Home = () => {
 
                    </div>
                </section>
+           <div className="container" id="mapParagraph">
+               <div className="row mb-5 pt-0 site-section">
+                   <div className="col-md-12 align-self-center">
+                       <h2 className="section-title-sub" id="homeAbout">{t('homeMapTitle')}</h2>
+                       <p>
+                           {t('homeMapParagraph')}
+                       </p>
+                   </div>
+               </div>
+           </div>
            <div className="mapSection">
                <div className="mapImg">
                    <img
@@ -117,16 +127,7 @@ const Home = () => {
                    />
                </div>
            </div>
-           <div className="container">
-               <div className="row mb-5 pt-0 site-section">
-                   <div className="col-md-12 align-self-center">
-                       <h2 className="section-title-sub" id="homeAbout">{t('homeMapTitle')}</h2>
-                       <p>
-                           {t('homeMapParagraph')}
-                       </p>
-                   </div>
-               </div>
-           </div>
+
 
 
        </>

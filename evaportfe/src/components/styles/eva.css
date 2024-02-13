@@ -431,9 +431,8 @@ h1, h2, h3, h4 {
 .img-overlap {
     position: relative; }
 .img-overlap .img-1, .img-overlap .img-2 {
-    position: absolute;
     padding: 4%;
-    max-width: 400px; }
+    max-width: 500px; }
 @media (max-width: 992px) {
     .img-overlap .img-1, .img-overlap .img-2 {
         padding: 10%;

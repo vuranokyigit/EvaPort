@@ -24,7 +24,7 @@ const Product = () => {
                       <div className="card">
                           <div className="cover item-a">
                               <div className="card-back">
-                                  <a href="/eva/evacore">{t('productCardsBackText')}</a>
+                                  <a href="/evaport/evacore">{t('productCardsBackText')}</a>
                               </div>
                           </div>
                       </div>
@@ -34,7 +34,7 @@ const Product = () => {
                           <div className="cover item-b">
 
                               <div className="card-back">
-                                  <a href="/eva/evabrand">{t('productCardsBackText')}</a>
+                                  <a href="/evaport/evabrand">{t('productCardsBackText')}</a>
                               </div>
                           </div>
                       </div>
@@ -44,7 +44,7 @@ const Product = () => {
                           <div className="cover item-c">
 
                               <div className="card-back">
-                                  <a href="/eva/ecoevapro">{t('productCardsBackText')}</a>
+                                  <a href="/evaport/ecoevapro">{t('productCardsBackText')}</a>
                               </div>
                           </div>
                       </div>

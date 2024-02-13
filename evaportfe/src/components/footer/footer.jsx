@@ -59,6 +59,8 @@ const Footer = () => {
                                 <h3>
                                     +351 223 204 030/PT
                                 </h3>
+                               <h6>Rua Gonçalves Zarco, 2173B 4455-821, Santa Cruz do Bispo, PORTUGAL</h6>
+
                                 <a href="/evaport/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white"}}>{t('footerContactButton')}</button></a>
                             </div>
 
@@ -67,7 +69,7 @@ const Footer = () => {
                     <div className="row text-center">
                         <div className="container">
                         <div className="col-12">
-                            <a href="https://evaport.pt/"><img style={{width:"50%"}}  src="/assets/EVAboldlight.png" alt=" "/></a>
+                            <a href="https://evaport.pt/"><img style={{width:"50%"}}  src="/assets/Evalightlight.png" alt=" "/></a>
                         </div>
                         </div>
                     </div>
