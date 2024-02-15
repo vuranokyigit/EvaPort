@@ -123,28 +123,30 @@ const About = () => {
                 </div>
             </section>
             <section className="carouselSection">
-                <Carousel  autoPlay>
+                <Carousel  autoPlay interval={3000} infiniteLoop>
                     <div>
                         <img src="/assets/1-min.png" alt="" />
-                    </div>
-                    <div>
-                        <img src="/assets/rawmaterials3.jpg" alt="" />
-                    </div>
-                    <div>
-                        <img src="/assets/rawmaterials4.jpg" alt="" />
                     </div>
                     <div>
                         <img src="/assets/2-min.png" alt="" />
                     </div>
                     <div>
-                        <img src="/assets/8-min.png" alt="" />
+                        <img src="/assets/6-min.png" alt="" />
                     </div>
                     <div>
-                        <img src="/assets/6-min.png" alt="" />
+                        <img src="/assets/rawmaterials3.jpg" alt="" />
                     </div>
                     <div>
                         <img src="/assets/3-min.png" alt="" />
                     </div>
+                    <div>
+                        <img src="/assets/rawmaterials4.jpg" alt="" />
+                    </div>
+                    <div>
+                        <img src="/assets/8-min.png" alt="" />
+                    </div>
+
+
                 </Carousel>
             </section>
             <section className="site-section">
