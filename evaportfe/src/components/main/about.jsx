@@ -123,7 +123,7 @@ const About = () => {
                 </div>
             </section>
             <section className="carouselSection">
-                <Carousel  autoPlay interval={3000} infiniteLoop>
+                <Carousel  autoPlay interval={2000} infiniteLoop>
                     <div>
                         <img src="/assets/1-min.png" alt="" />
                     </div>
