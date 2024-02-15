@@ -10,13 +10,20 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 8rem;
+    height: 5.5rem;
     margin-top: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
 @media (min-width: 991px) {
     .carousel .slider-wrapper {
         width: 75%!important;
+    }
+}
+@media (max-width: 991px) {
+    #navbarCollapse{
+
+        height: 10rem;
+
     }
 }
 @media screen and (min-width: 530px) and (max-width: 991px) {

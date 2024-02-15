@@ -31,7 +31,8 @@ const Home = () => {
                        <div className="row align-items-center justify-content-center">
                            <div className="col-md-8 text-center" id="evaPortWelcome">
                                <h1 style={{fontWeight:"bolder"}}>{t('homeWelcome')}</h1>
-                                 <a href="/evaport/contact" className="btn btn-md"  id="homeSectionBtnContact" style={{fontWeight: "300"}}>
+                               <h1 style={{fontWeight:"bolder"}}>{t('homeWelcome2')}</h1>
+                               <a href="/evaport/contact" className="btn btn-md"  id="homeSectionBtnContact" style={{fontWeight: "300"}}>
                                      {t('homeButtonGetInTouch')}
                                   </a>
                            </div>
@@ -44,8 +45,8 @@ const Home = () => {
                    <span className="homeIcon"><FontAwesomeIcon icon={faCubes} size="2xl" /></span>
                    <div className="d-flex align-items-center justify-content-center mb-2" id="infoNumber">
                        <span className="icon-line-mobile mr-3" />
-                       <span className="number" data-number={450}>
-                                       <Count n={6000}/>
+                       <span className="number" data-number={480}>
+                                       <Count n={480}/>
                                    </span>
                    </div>
                    <span className="caption">{t('homeCounterProduction')} </span>
@@ -54,8 +55,8 @@ const Home = () => {
                    <span className="homeIcon"><FontAwesomeIcon icon={faUserGroup} size="2xl" /></span>
                    <div className="d-flex align-items-center justify-content-center mb-2" id="infoNumber">
                        <span className="icon-line-lightbulb mr-3" />
-                       <span className="number" data-number={45}>
-                                       <Count n={45}/>
+                       <span className="number" data-number={11}>
+                                       <Count n={11}/>
                                    </span>
                    </div>
                    <span className="caption">{t('homeCounterWorkers')}</span>
@@ -63,8 +64,8 @@ const Home = () => {
                <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
                    <span className="homeIcon"><FontAwesomeIcon icon={faIndustry} size="2xl" /></span>
                    <div className="d-flex align-items-center justify-content-center mb-2" id="infoNumber">
-                                   <span className="number" data-number={7500}>
-                                       <Count n={7500}/>
+                                   <span className="number" data-number={2000}>
+                                       <Count n={2000}/>
                                    </span>
                    </div>
                    <span className="caption">m<sup>2</sup> {t('homeCounterFactoryArea')}</span>
