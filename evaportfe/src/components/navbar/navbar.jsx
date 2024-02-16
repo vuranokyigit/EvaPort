@@ -45,9 +45,9 @@ const MyNavbar = () => {
                     </Nav>
                     </div>
                     <div className="col-md-4" id="language">
+                        <button style={{border: "none"}} onClick={() => changeLanguage('pt')}><img style={{width: "30px"}} src="/assets/portugal.png" alt=""/></button>
                         <button style={{border: "none"}} onClick={() => changeLanguage('en')}><img style={{width: "30px"}} src="/assets/united-kingdom.png" alt=""/></button>
                         <button style={{border: "none"}} onClick={() => changeLanguage('it')}><img style={{width: "30px"}} src="/assets/italy.png" alt=""/></button>
-                        <button style={{border: "none"}} onClick={() => changeLanguage('pt')}><img style={{width: "30px"}} src="/assets/portugal.png" alt=""/></button>
                     </div>
                 </Navbar.Collapse>
             </Navbar>

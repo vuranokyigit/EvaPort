@@ -21,9 +21,12 @@ p{
 }
 @media (max-width: 991px) {
     #navbarCollapse{
-
         height: 10rem;
-
+    }
+}
+@media screen and (max-width: 530px){
+    #navbarCollapse{
+        height: 7rem;
     }
 }
 @media screen and (min-width: 530px) and (max-width: 991px) {
