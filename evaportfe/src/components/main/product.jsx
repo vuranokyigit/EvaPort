@@ -12,7 +12,7 @@ const Product = () => {
               <div className="container">
                   <div className="row align-items-center justify-content-center">
                       <div className="col-md-8 text-center" id="evaPortWelcome">
-                           <h1 style={{fontWeight:"bold"}}>{t('productMainTitle')}</h1>
+                           <h1 className="animated-heading" style={{fontWeight:"bold"}}>{t('productMainTitle')}</h1>
                           <h3 style={{color:"white", }}>{t('productTextUnderTitle')}</h3>
                       </div>
                   </div>

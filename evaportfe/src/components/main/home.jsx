@@ -30,8 +30,8 @@ const Home = () => {
                    <div className="container">
                        <div className="row align-items-center justify-content-center">
                            <div className="col-md-8 text-center" id="evaPortWelcome">
-                               <h1 style={{fontWeight:"bolder"}}>{t('homeWelcome')}</h1>
-                               <h1 style={{fontWeight:"bolder"}}>{t('homeWelcome2')}</h1>
+                               <h1 className="animated-heading" style={{fontWeight:"bolder"}}>{t('homeWelcome')}</h1>
+                               <h1 className="animated-heading" style={{fontWeight:"bolder"}}>{t('homeWelcome2')}</h1>
                                <a href="/evaport/contact" className="btn btn-md"  id="homeSectionBtnContact" style={{fontWeight: "300"}}>
                                      {t('homeButtonGetInTouch')}
                                   </a>

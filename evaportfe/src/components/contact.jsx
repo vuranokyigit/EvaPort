@@ -55,7 +55,7 @@ const[showModal, setShowModal]=useState(false);
             <div className="container">
                 <div className="row align-items-center justify-content-center">
                     <div className="col-md-8 text-center" id="evaPortWelcome">
-                        <h1 style={{fontWeight:"bold"}}>{t('contactMainTitle')}</h1>
+                        <h1 className="animated-heading" style={{fontWeight:"bold"}}>{t('contactMainTitle')}</h1>
                     </div>
                 </div>
             </div>

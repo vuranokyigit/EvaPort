@@ -91,6 +91,22 @@ width: 80%;
 }
 
 /*HOME*/
+.animated-heading {
+    font-size: 24px;
+    animation: growingAnimation 1.5s ease-in-out forwards;
+}
+
+@keyframes growingAnimation {
+    from {
+        font-size: 0px;
+        opacity: 0;
+    }
+    to {
+        font-size: 6rem;
+        opacity: 1;
+    }
+}
+
 #home-section{
     /* Full height */
     height: 100%;
