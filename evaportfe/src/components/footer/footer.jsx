@@ -17,22 +17,22 @@ const Footer = () => {
                 <div className="container">
                     <div className="row mb-3" id="footerInfoSection">
                         <div className="col-6 col-md-4 mb-4 mb-md-0">
-                            <h3>{t('footerProductsTitle')}</h3>
+                            <h3 style={{textTransform:"uppercase"}}>{t('footerProductsTitle')}</h3>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="/evaport/evacore">Evacore</a>
+                                    <a href="/evaport/evacore">EVACORE</a>
                                 </li>
                                 <li>
-                                    <a href="/evaport/evabrand">Evabrand</a>
+                                    <a href="/evaport/evabrand">EVABRAND</a>
                                 </li>
                                 <li>
-                                    <a href="/evaport/ecoevapro">Ecoevapro</a>
+                                    <a href="/evaport/ecoevapro">ECOEVAPRO</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="col-6 col-md-4 mb-4 mb-md-0">
-                            <h3>{t('footerCompanyTitle')}</h3>
-                            <ul className="list-unstyled">
+                            <h3 style={{textTransform:"uppercase"}} >{t('footerCompanyTitle')}</h3>
+                            <ul style={{textTransform:"uppercase"}} className="list-unstyled">
                                 <li>
                                     <a href="/evaport/about">{t('footerCompanyLink1')}</a>
                                 </li>
@@ -45,7 +45,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        <div className="col-6 col-md-4 mb-4 mb-md-0" id="footerContactSection">
+                        <div style={{textTransform:"uppercase"}} className="col-6 col-md-4 mb-4 mb-md-0" id="footerContactSection">
                             <h3>{t('footerContactTitle')}</h3>
                             <div className="footer-social" id="footersocial">
                                 <a href="https://www.instagram.com/evacaregranul/" id="insta">
@@ -61,7 +61,7 @@ const Footer = () => {
                                 </h3>
                                <h6>Rua Gonçalves Zarco, 2173B 4455-821, Santa Cruz do Bispo, PORTUGAL</h6>
 
-                                <a href="/evaport/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white"}}>{t('footerContactButton')}</button></a>
+                                <a  href="/evaport/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white", textTransform:"uppercase"}}>{t('footerContactButton')}</button></a>
                             </div>
 
                         </div>
