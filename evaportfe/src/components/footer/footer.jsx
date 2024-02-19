@@ -20,19 +20,19 @@ const Footer = () => {
                             <h3 style={{textTransform:"uppercase"}}>{t('footerProductsTitle')}</h3>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="/evaport/evacore">EVACORE</a>
+                                    <a href="/evaport/evacore">EvaCore</a>
                                 </li>
                                 <li>
-                                    <a href="/evaport/evabrand">EVABRAND</a>
+                                    <a href="/evaport/evabrand">EvaBrand</a>
                                 </li>
                                 <li>
-                                    <a href="/evaport/ecoevapro">ECOEVAPRO</a>
+                                    <a href="/evaport/ecoevapro">EcoEvaPro</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="col-6 col-md-4 mb-4 mb-md-0">
                             <h3 style={{textTransform:"uppercase"}} >{t('footerCompanyTitle')}</h3>
-                            <ul style={{textTransform:"uppercase"}} className="list-unstyled">
+                            <ul  className="list-unstyled">
                                 <li>
                                     <a href="/evaport/about">{t('footerCompanyLink1')}</a>
                                 </li>
