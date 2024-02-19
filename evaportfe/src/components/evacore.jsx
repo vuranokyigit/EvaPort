@@ -16,7 +16,7 @@ const Evacore = () => {
                     <div className="container">
                         <div className="row align-items-center justify-content-center">
                             <div className="col-md-8 text-center">
-                                <h1>EvaCore</h1>
+                                <h1 style={{textTransform:"capitalize"}}>EvaCore</h1>
                                 <div className="mx-auto w-75">
                                     <p />
                                 </div>
@@ -43,7 +43,7 @@ const Evacore = () => {
                             </div>
                             <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
                                 <div className="mb-5">
-                                    <h3 className="mb-4 h4">EVACORE</h3>
+                                    <h3 className="mb-4 h4">EvaCore</h3>
                                     <p className="mb-0">
                                         {t('productEvaCoreParagraph')}
                                     </p>

@@ -16,7 +16,7 @@ const Ecoevapro = () => {
               <div className="container">
                   <div className="row align-items-center justify-content-center">
                       <div className="col-md-8 text-center">
-                          <h1>EcoEvaPro</h1>
+                          <h1 style={{textTransform:"capitalize"}}>EcoEvaPro</h1>
                           <div className="mx-auto w-75">
                               <p />
                           </div>
@@ -43,7 +43,7 @@ const Ecoevapro = () => {
                       </div>
                       <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
                           <div className="mb-5" id="paragraphEco">
-                              <h3 className="mb-4 h4">ECOEVAPRO</h3>
+                              <h3 className="mb-4 h4">EcoEvaPro</h3>
                               <p className="mb-0">
                                   {t('productEcoEvaProParagraph')}
                               </p>

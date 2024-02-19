@@ -12,7 +12,7 @@ const Evabrand = () => {
               <div className="container">
                   <div className="row align-items-center justify-content-center">
                       <div className="col-md-8 text-center">
-                          <h1>EvaBrand</h1>
+                          <h1 style={{textTransform:"capitalize"}}>EvaBrand</h1>
                           <div className="mx-auto w-75">
                               <p></p>
                           </div>
@@ -37,7 +37,7 @@ const Evabrand = () => {
                       </div>
                       <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
                           <div className="mb-5">
-                              <h3 className="mb-4 h4">EVABRAND</h3>
+                              <h3 className="mb-4 h4">EvaBrand</h3>
                               <p className="mb-0">
                                   {t('productEvaBrandParagraph')}
                               </p>
