@@ -45,7 +45,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        <div style={{textTransform:"uppercase"}} className="col-6 col-md-4 mb-4 mb-md-0" id="footerContactSection">
+                        <div style={{textTransform:"capitalize"}} className="col-6 col-md-4 mb-4 mb-md-0" id="footerContactSection">
                             <h3>{t('footerContactTitle')}</h3>
                             <div className="footer-social" id="footersocial">
                                 <a href="https://www.instagram.com/evacaregranul/" id="insta">
@@ -61,7 +61,7 @@ const Footer = () => {
                                 </h3>
                                <h6>Rua Gonçalves Zarco, 2173B 4455-821, Santa Cruz do Bispo, PORTUGAL</h6>
 
-                                <a  href="/evaport/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white", textTransform:"uppercase"}}>{t('footerContactButton')}</button></a>
+                                <a  href="/evaport/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white", textTransform:"capitalize"}}>{t('footerContactButton')}</button></a>
                             </div>
 
                         </div>

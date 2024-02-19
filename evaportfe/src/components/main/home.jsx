@@ -75,13 +75,13 @@ const Home = () => {
                    <div className="container">
                        <div className="row mb-5 pt-0 site-section">
                            <div className="col-md-6 align-self-center">
-                               <h2 className="section-title-sub " id="homeAbout">{t('homeAboutUsTitle')}</h2>
+                               <h2  className="section-title-sub " id="homeAbout">{t('homeAboutUsTitle')}</h2>
                                <h6>{t('homeAboutUsSecondTitle')}</h6>
                                <p>
                                    {t('homeAboutUsParagraph')}
                                </p>
                                <p className="mt-4">
-                                   <a href="/evaport/about" className="spepcial_link">
+                                   <a style={{textTransform:"capitalize"}} href="/evaport/about" className="spepcial_link">
                                        {t('homeAboutUsLink')}
                                    </a>
                                </p>
