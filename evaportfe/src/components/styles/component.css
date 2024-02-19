@@ -7,6 +7,9 @@ p{
     margin-bottom: 10%!important;
 }
 /*NAVBAR*/
+.navbar-toggler{
+    background-color: #e3e3e3!important;
+}
 
 #navbarCollapse{
     width: 100%;
