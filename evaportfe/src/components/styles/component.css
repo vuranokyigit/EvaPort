@@ -103,7 +103,7 @@ width: 80%;
             opacity: 0;
         }
         to {
-            font-size: 3rem;
+            font-size: 2.5rem;
             opacity: 1;
         }
     }
@@ -116,7 +116,7 @@ width: 80%;
 
     @keyframes growingAnimation {
         from {
-            font-size: 0px;
+            font-size: 0;
             opacity: 0;
         }
         to {
