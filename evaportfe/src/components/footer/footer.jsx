@@ -51,7 +51,7 @@ const Footer = () => {
                                 <a href="https://www.instagram.com/evacaregranul/" id="insta">
                                    <span><FontAwesomeIcon icon={faInstagram} size="xl"/></span>
                                 </a>
-                                <a href="https://www.linkedin.com/in/selen-%C3%B6ztemel-0101/" id="linked">
+                                <a href="https://www.linkedin.com/company/evaport/" id="linked">
                                    <span> <FontAwesomeIcon icon={faLinkedin} size="xl" /></span>
                                 </a>
                             </div>
