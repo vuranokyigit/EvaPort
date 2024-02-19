@@ -3,6 +3,9 @@ p{
     text-align: justify;
     font-weight: lighter;
 }
+.section-title{
+    margin-bottom: 10%!important;
+}
 /*NAVBAR*/
 
 #navbarCollapse{

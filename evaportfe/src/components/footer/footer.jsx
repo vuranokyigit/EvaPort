@@ -48,7 +48,7 @@ const Footer = () => {
                         <div style={{textTransform:"capitalize"}} className="col-6 col-md-4 mb-4 mb-md-0" id="footerContactSection">
                             <h3>{t('footerContactTitle')}</h3>
                             <div className="footer-social" id="footersocial">
-                                <a href="https://www.instagram.com/evacaregranul/" id="insta">
+                                <a href="https://www.instagram.com/evaportlda/" id="insta">
                                    <span><FontAwesomeIcon icon={faInstagram} size="xl"/></span>
                                 </a>
                                 <a href="https://www.linkedin.com/company/evaport/" id="linked">

@@ -94,9 +94,9 @@ const About = () => {
                 <div className="container">
                     <div className="row mb-5 pt-0 site-section">
                         <div className="col-md-6 align-self-center">
-                            <h1 className="section-title">
+                            <h2 className="section-title">
                                 {t('aboutUsSecondTitle')}
-                            </h1>
+                            </h2>
                             <p>
                                 {t('aboutUsSecondParagraph')}
                             </p>
