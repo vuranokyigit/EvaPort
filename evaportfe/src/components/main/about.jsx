@@ -53,15 +53,12 @@ const About = () => {
                                 <div className={`modal ${openModalVideo ? 'open' : ''}`}>
                                     <div className="modal-content" id="modalContent">
                                         <video
-
                                             style={{ maxWidth: "100%", width: "800px", margin: "0 auto" }}
                                             playsInline
                                             loop
-                                            muted
                                             controls
                                             alt=""
-                                            src="/assets/EVACARE.mp4"
-
+                                            src="/assets/EVAportvideo.mp4"
                                         />
                                     </div>
                                 </div>
@@ -179,10 +176,9 @@ const About = () => {
                         style={{ maxWidth: "100%", width: "800px", margin: "0 auto" }}
                         playsInline
                         loop
-                        muted
                         controls
                         alt=""
-                        src="/assets/EVACARE.mp4"
+                        src="/assets/EVAportvideo.mp4"
                         loading="lazy"
 
                     />

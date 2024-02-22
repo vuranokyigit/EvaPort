@@ -63,8 +63,34 @@ const Ecoevapro = () => {
                       </div>
                       <span className="caption">{t('productEcoEvaProCertificateDoc')}  </span>
                   </div>
-
+                  <hr style={{
+                      width:"50%", margin:"0 auto", marginTop:"5%"
+                  }}/>
               </div>
+              <h3 className="mb-4 h4">{t('productNotesTitle')}</h3>
+              <span className="text-danger"> *</span><p className="mb-0" style={{
+                  width:"80%", margin:"0 auto",marginBottom:"3%",fontSize:"small"
+              }}>
+                  {t('productNotesParagraph')}
+              </p>
+              <h3 className="mb-4 mt-4 h4">{t('productPackagingTitle')}</h3>
+              <span className="text-danger"> *</span><p className="mb-0" style={{
+              width:"80%", margin:"0 auto",marginBottom:"3%",fontSize:"small"
+          }}>
+              {t('productPackagingParagraph')}
+          </p>
+              <h3 className="mb-4 mt-4 h4">{t('productProcessingTitle')}</h3>
+              <span className="text-danger"> *</span><p className="mb-0" style={{
+              width:"80%", margin:"0 auto",marginBottom:"3%",fontSize:"small"
+          }}>
+              {t('productProcessingParagraph')}
+          </p>
+              <h3 className="mb-4 mt-4 h4">{t('productStorageTitle')}</h3>
+              <span className="text-danger"> *</span><p className="mb-0" style={{
+              width:"80%", margin:"0 auto",marginBottom:"3%",fontSize:"small"
+          }}>
+              {t('productStorageParagraph')}
+          </p>
           </section>
       </>
   )
