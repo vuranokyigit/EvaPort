@@ -209,6 +209,37 @@ width: 80%;
         margin-bottom: -10%;
     }
 }
+@media (min-width: 991px) {
+    .mapImg img{
+        width: 60%!important;
+    }
+}
+.special_link {
+    display: flex;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none !important;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: .9rem; }
+.special_link:before {
+    position: absolute;
+    z-index: -1;
+    background: #629ad9;
+    content: "";
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    left: 0;
+    bottom: 0;
+    top: 50%;
+    width: 0; }
+.special_link:hover {
+    color: #ffffff; }
+.special_link:hover:before {
+    width: 100%; }
 /*ABOUT*/
 .carouselSection{
  padding: 10%;

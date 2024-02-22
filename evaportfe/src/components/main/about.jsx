@@ -120,7 +120,8 @@ const About = () => {
                 </div>
             </section>
             <section className="carouselSection">
-                <Carousel  autoPlay interval={2000} infiniteLoop>
+                <Carousel  autoPlay interval={2000} infiniteLoop >
+
                     <div>
                         <img src="/assets/1-min.png" alt="" />
                     </div>
@@ -134,6 +135,9 @@ const About = () => {
                         <img src="/assets/rawmaterials3.jpg" alt="" />
                     </div>
                     <div>
+                        <img src="/assets/evasonimage.jpeg" alt="" />
+                    </div>
+                    <div>
                         <img src="/assets/3-min.png" alt="" />
                     </div>
                     <div>
@@ -142,7 +146,6 @@ const About = () => {
                     <div>
                         <img src="/assets/8-min.png" alt="" />
                     </div>
-
 
                 </Carousel>
             </section>
@@ -172,7 +175,6 @@ const About = () => {
 
                 <div className="col-md-12">
                     <video
-                        autoPlay
                         style={{ maxWidth: "100%", width: "800px", margin: "0 auto" }}
                         playsInline
                         loop

@@ -125,7 +125,17 @@ const Home = () => {
                        alt=""
                        loading="lazy" // Tembel yükleme için loading="lazy" eklendi
                        className="img-fluid img-shadow"
+
                    />
+               </div>
+               <div className="container">
+                   <div className="row">
+                       <p className="mt-4">
+                           <a style={{textTransform:"capitalize"}} href="/eva/about" className="special_link mt-4">
+                               {t('homeAboutUsLink')}
+                           </a>
+                       </p>
+                   </div>
                </div>
            </div>
 
