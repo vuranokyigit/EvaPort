@@ -108,36 +108,33 @@ const Home = () => {
 
                    </div>
                </section>
-           <div className="container" id="mapParagraph">
-               <div className="row mb-5 pt-0 site-section">
-                   <div className="col-md-12 align-self-center">
-                       <h2 className="section-title-sub" id="homeAbout">{t('homeMapTitle')}</h2>
-                       <p>
-                           {t('homeMapParagraph')}
-                       </p>
-                   </div>
-               </div>
-           </div>
-           <div className="mapSection">
-               <div className="mapImg">
-                   <img
-                       src="/assets/mapVector4.png"
-                       alt=""
-                       loading="lazy" // Tembel yükleme için loading="lazy" eklendi
-                       className="img-fluid img-shadow"
-
-                   />
-               </div>
+           <section className="site-section about-us-section" id="about-us-section" style={{marginTop:"-15%"}}>
                <div className="container">
-                   <div className="row">
-                       <p className="mt-4">
-                           <a style={{textTransform:"capitalize"}} href="/eva/about" className="special_link mt-4">
-                               {t('homeAboutUsLink')}
-                           </a>
-                       </p>
+                   <div className="row mb-5 pt-0 site-section">
+                       <div className="col-md-5 ml-auto ">
+                           <div className="img-1">
+                               <img
+                                   src="/assets/mapVector4.png"
+                                   alt=""
+                                   loading="lazy"
+                                   className="img-fluid img-shadow"
+                               />
+                           </div>
+                       </div>
+                       <div className="col-md-6 align-self-center">
+                           <h2 style={{textTransform:"uppercase"}} className="section-title-sub " id="homeAbout">{t('homeMapTitle')}</h2>
+                           <p>
+                               {t('homeMapParagraph')}
+                           </p>
+                           <p className="mt-4">
+                               <a style={{textTransform:"capitalize"}} href="/eva/product" className="spepcial_link">
+                                   {t('homeAboutUsLink')}
+                               </a>
+                           </p>
+                       </div>
                    </div>
                </div>
-           </div>
+           </section>
 
 
 
