@@ -26,7 +26,7 @@ const Footer = () => {
                                     <a href="/evaport/evabrand">EvaBrand</a>
                                 </li>
                                 <li>
-                                    <a href="/evaport/ecoevapro">EcoEvaPro</a>
+                                    <a href="/evaport/EvaRenew">EvaRenew</a>
                                 </li>
                             </ul>
                         </div>

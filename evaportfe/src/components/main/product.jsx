@@ -44,7 +44,7 @@ const Product = () => {
                           <div className="cover item-c">
 
                               <div className="card-back">
-                                  <a href="/evaport/ecoevapro">{t('productCardsBackText')}</a>
+                                  <a href="/evaport/EvaRenew">{t('productCardsBackText')}</a>
                               </div>
                           </div>
                       </div>

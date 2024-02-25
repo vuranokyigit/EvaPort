@@ -3,20 +3,20 @@ import {useTranslation} from "react-i18next";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFileInvoice} from "@fortawesome/free-solid-svg-icons";
 
-const Ecoevapro = () => {
+const EvaRenew = () => {
     const {t}=useTranslation();
 
     return(
       <>
           <section
               className="home-section section-hero image-bg overlay-2 slanted"
-              style={{ backgroundImage: 'url("/assets/EcoEvaProLogo.png")' }}
+              style={{ backgroundImage: 'url("/assets/EvaRenewLogo.png")' }}
               id="home-section"
           >
               <div className="container">
                   <div className="row align-items-center justify-content-center">
                       <div className="col-md-8 text-center">
-                          <h1 style={{textTransform:"capitalize"}}>EcoEvaPro</h1>
+                          <h1 style={{textTransform:"capitalize"}}>EvaRenew</h1>
                           <div className="mx-auto w-75">
                               <p />
                           </div>
@@ -43,9 +43,9 @@ const Ecoevapro = () => {
                       </div>
                       <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
                           <div className="mb-5" id="paragraphEco">
-                              <h3 className="mb-4 h4">EcoEvaPro</h3>
+                              <h3 className="mb-4 h4">EvaRenew</h3>
                               <p className="mb-0">
-                                  {t('productEcoEvaProParagraph')}
+                                  {t('productEvaRenewParagraph')}
                               </p>
                           </div>
                       </div>
@@ -54,14 +54,14 @@ const Ecoevapro = () => {
               </div>
           </section>
           <section className="documentSection">
-              <h1>{t('productEcoEvaProCertificateTitle')}</h1>
+              <h1>{t('productEvaRenewCertificateTitle')}</h1>
               <div className="row pb-4 border-top pt-5 block__19738 section-counter">
                   <div className="col-12 col-md-12 col-lg-12 mb-7 mb-lg-0">
                       <a href="/scope.pdf" style={{color:"black"}}><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
                       <div className="d-flex align-items-center justify-content-center mb-2" id="infoNumber">
                           <span className="icon-line-mobile mr-3" />
                       </div>
-                      <span className="caption">{t('productEcoEvaProCertificateDoc')}  </span>
+                      <span className="caption">{t('productEvaRenewCertificateDoc')}  </span>
                   </div>
                   <hr style={{
                       width:"50%", margin:"0 auto", marginTop:"5%"
@@ -95,4 +95,4 @@ const Ecoevapro = () => {
       </>
   )
 }
-export default Ecoevapro
+export default EvaRenew

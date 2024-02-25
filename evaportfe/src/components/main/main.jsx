@@ -10,7 +10,7 @@ import Footer from '../footer/footer';
 import Contact from '../contact';
 import Evacore from "../evacore";
 import Evabrand from "../evabrand";
-import Ecoevapro from "../ecoevapro";
+import EvaRenew from "../EvaRenew";
 
 const Main = () => {
     return (
@@ -24,7 +24,7 @@ const Main = () => {
                     <Route path="/evaport/contact" component={Contact} />
                     <Route path="/evaport/evacore" component={Evacore}/>
                     <Route path="/evaport/evabrand" component={Evabrand}/>
-                    <Route path="/evaport/ecoevapro" component={Ecoevapro}/>
+                    <Route path="/evaport/EvaRenew" component={EvaRenew}/>
                 </Switch>
             </Router>
             <Footer />
