@@ -42,7 +42,6 @@ const Product = () => {
                   <div className="col-md-4 col-sm-6 col-xs-12">
                       <div className="card">
                           <div className="cover item-c">
-
                               <div className="card-back">
                                   <a href="/evaport/EvaRenew">{t('productCardsBackText')}</a>
                               </div>

@@ -99,7 +99,10 @@ width: 80%;
 }
 #language button{
     background-color: transparent;
-    width: 10%;
+    width: 7%;
+}
+#language button img{
+    width: 20px!important;
 }
 
 /*HOME*/
