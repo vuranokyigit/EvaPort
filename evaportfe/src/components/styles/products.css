@@ -188,6 +188,9 @@
     justify-content: center;
     align-items: center;
 }
+.divider-horizontal{
+    color: #28a745;
+}
 @media (min-width: 500px) {
     .divider-horizontal{
         margin-top: 6%;
