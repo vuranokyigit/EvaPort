@@ -137,6 +137,66 @@
     background-color: white;
     color: #0b0f08;
 }
+#card-box {
+    margin-top: -20%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 65%;
+    height: 300px;
+    background-color: #28a745;
+}
+.productCard{
+    margin-top: 15%;
+}
+
+@media (max-width: 991px) {
+    #card-box {
+        width: 100%;
+        margin-top: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 500px) {
+    #card-box {
+        margin-top: -10%;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+}
+
+#card-text {
+    padding: 20px;
+}
+
+#cardBodyHome {
+    padding: 1px!important;
+}
+
+#cardTitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px;
+}
+
+#nearLogoExp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 500px) {
+    .divider-horizontal{
+        margin-top: 6%;
+        width: 1px;
+        height: 60%; /* veya istediğiniz bir yükseklik */
+        background-color: #EF7215; /* veya istediğiniz renk */
+        color: #28a745;
+    }
+}
 /*EVABRAND*/
 .documentSection{
     margin-bottom: 20%;

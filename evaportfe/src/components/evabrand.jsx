@@ -51,14 +51,14 @@ const Evabrand = () => {
               <h1>{t('productDocumentTitle')}</h1>
           <div className="row pb-4 border-top pt-5 block__19738 section-counter">
               <div className="col-6 col-md-6 col-lg-6 mb-7 mb-lg-0">
-                  <a href="/TDS-EVAPORT-ENG 1.20.pdf" style={{color:"black"}}><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
+                  <a href="/TDS-EVAPORT-ENG 1.20.pdf" style={{color:"black"}} target="_blank" rel="noopener noreferrer"><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
                   <div className="d-flex align-items-center justify-content-center mb-2" id="infoNumber">
                       <span className="icon-line-mobile mr-3" />
                   </div>
                   <span className="caption">{t('productDocuments')} 1.20 </span>
               </div>
               <div className="col-6 col-md-6  col-lg-6 mb-7 mb-lg-0">
-                  <a href="/TDS-EVAPORT-ENG 1.30.pdf" style={{color:"black"}}><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
+                  <a href="/TDS-EVAPORT-ENG 1.30.pdf" style={{color:"black"}} target="_blank" rel="noopener noreferrer"><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
                   <div className="d-flex align-items-center justify-content-center mb-2" id="infoNumber">
                       <span className="icon-line-mobile mr-3" />
                   </div>

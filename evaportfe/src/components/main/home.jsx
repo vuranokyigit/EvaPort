@@ -135,9 +135,35 @@ const Home = () => {
                    </div>
                </div>
            </section>
-
-
-
+           <section className="site-section about-us-section mb-5" id="about-us-section">
+               <div className="container">
+                   <div className="row mb-5 pt-0 site-section">
+                       <div className="col-md-6 align-self-center">
+                           <h2 style={{textTransform:"uppercase"}} className="section-title-sub " id="homeAbout">
+                               {t('homeSolarTitle')}
+                           </h2>
+                           <p>
+                               {t('homeSolarParagraph')}
+                           </p>
+                           <p className="mt-4">
+                               <a style={{textTransform:"capitalize"}} href="/eva/product" className="spepcial_link">
+                                   {t('homeAboutUsLink')}
+                               </a>
+                           </p>
+                       </div>
+                       <div className="col-md-5 ml-auto ">
+                           <div className="img-1">
+                               <img
+                                   src="/assets/evacati.jpeg"
+                                   alt=""
+                                   loading="lazy"
+                                   className="img-fluid img-shadow"
+                               />
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </section>
        </>
     )
 }

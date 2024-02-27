@@ -56,7 +56,7 @@ const Evacore = () => {
                     <h1>{t('productDocumentTitle')}</h1>
                     <div className="row pb-4 border-top pt-5 block__19738 section-counter">
                         <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0">
-                            <a href="/TDS-EVAPORT-ENG 1.25.pdf" style={{color:"black"}}><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
+                            <a href="/TDS-EVAPORT-ENG 1.25.pdf" style={{color:"black"}} target="_blank" rel="noopener noreferrer"><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
                             <div className="d-flex align-items-center justify-content-center mb-2" id="infoNumber">
                                 <span className="icon-line-mobile mr-3" />
 
@@ -64,14 +64,14 @@ const Evacore = () => {
                             <span className="caption">{t('productDocuments')} 1.25 </span>
                         </div>
                         <div className="col-4 col-md-4  col-lg-4 mb-7 mb-lg-0">
-                            <a href="/TDS-EVAPORT-ENG 1.40.pdf" style={{color:"black"}}><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
+                            <a href="/TDS-EVAPORT-ENG 1.40.pdf" style={{color:"black"}} target="_blank" rel="noopener noreferrer"><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
                             <div className="d-flex align-items-center justify-content-center mb-2" id="infoNumber">
                                 <span className="icon-line-mobile mr-3" />
                             </div>
                             <span className="caption">{t('productDocuments')} 1.40 </span>
                         </div>
                         <div className="col-4 col-md-4  col-lg-4 mb-7 mb-lg-0">
-                            <a href="/TDS-EVAPORT-ENG 1.50.pdf" style={{color:"black"}}><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
+                            <a href="/TDS-EVAPORT-ENG 1.50.pdf" style={{color:"black"}} target="_blank" rel="noopener noreferrer"><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
                             <div className="d-flex align-items-center justify-content-center mb-2" id="infoNumber">
                                 <span className="icon-line-mobile mr-3" />
                             </div>

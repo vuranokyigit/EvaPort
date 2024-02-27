@@ -57,7 +57,7 @@ const EvaRenew = () => {
               <h1>{t('productEvaRenewCertificateTitle')}</h1>
               <div className="row pb-4 border-top pt-5 block__19738 section-counter">
                   <div className="col-12 col-md-12 col-lg-12 mb-7 mb-lg-0">
-                      <a href="/scope.pdf" style={{color:"black"}}><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
+                      <a href="/scope.pdf" style={{color:"black"}} target="_blank" rel="noopener noreferrer"><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
                       <div className="d-flex align-items-center justify-content-center mb-2" id="infoNumber">
                           <span className="icon-line-mobile mr-3" />
                       </div>
