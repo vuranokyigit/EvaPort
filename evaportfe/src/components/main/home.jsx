@@ -108,7 +108,52 @@ const Home = () => {
 
                    </div>
                </section>
-           <section className="site-section about-us-section" id="about-us-section" style={{marginTop:"-15%"}}>
+           <section  className= "site-section about-us-section mt-9 mb-4" id="about-us-section" style={{marginTop:"-15%"}}>
+               <div className="productCard">
+                   <div className="container">
+                       <div className="row align-items-center justify-content-center">
+                           <div className="card bg-green" id="card-box">
+                               <div className="col-md-4 text-dark" id="card-text">
+                                   <div className="card-title" id="cardTitle" >
+                                       <div className="row">
+                                           <div className="col-6"><img src="/assets/soles.png" style={{fontSize:"xx-small", width:"100%"}} alt=" "/></div>
+                                           <div className="col-6" id="nearLogoExp">Soles</div>
+                                       </div>
+                                   </div>
+                                   <div className="card-body" id="cardBodyHome">
+                                       Lightweight, flexible, abrasion, resistant, soft touch
+                                   </div>
+                               </div>
+                               <div className="divider-horizontal">'</div>
+                               <div className="col-md-4 text-dark" id="card-text" >
+                                   <div className="card-title" id="cardTitle">
+                                       <div className="row">
+                                           <div className="col-6"><img src="/assets/slippers.png" style={{fontSize:"xx-small", width:"100%"}} alt=" "/></div>
+                                           <div className="col-6" id="nearLogoExp">Slippers</div>
+                                       </div>
+                                   </div>
+                                   <div className="card-body" id="cardBodyHome">
+                                       Lightweight, good grip, wide range of colors
+                                   </div>
+                               </div>
+                               <div className="divider-horizontal">'</div>
+                               <div className="col-md-4 text-dark" id="card-text" >
+                                   <div className="card-title"  id="cardTitle" >
+                                       <div className="row">
+                                           <div className="col-6"><img src="/assets/boots.png" style={{fontSize:"xx-small", width:"100%"}} alt=" "/></div>
+                                           <div className="col-6" id="nearLogoExp">Boots</div>
+                                       </div>
+                                   </div>
+                                   <div className="card-body" id="cardBodyHome">
+                                       Lightweight, resistant, perfect aspect
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </section>
+           <section className="site-section about-us-section" id="about-us-section" style={{marginTop:"-5%"}}>
                <div className="container">
                    <div className="row mb-5 pt-0 site-section">
                        <div className="col-md-5 ml-auto ">
@@ -135,7 +180,7 @@ const Home = () => {
                    </div>
                </div>
            </section>
-           <section className="site-section about-us-section mb-5" id="about-us-section">
+           <section className="site-section about-us-section mb-5" id="about-us-section" style={{marginTop:"-15%"}}>
                <div className="container">
                    <div className="row mb-5 pt-0 site-section">
                        <div className="col-md-6 align-self-center">

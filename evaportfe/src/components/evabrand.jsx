@@ -1,7 +1,7 @@
 import React  from "react";
 import {useTranslation} from "react-i18next";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faFileInvoice} from "@fortawesome/free-solid-svg-icons";
+import {faFileInvoice, faChevronLeft} from "@fortawesome/free-solid-svg-icons";
 
 const Evabrand = () => {
     const {t}=useTranslation();
@@ -11,7 +11,10 @@ const Evabrand = () => {
           <section style={{ backgroundImage: 'url("/assets/EvaBrandLogo.png")' }} className="home-section section-hero image-bg overlay-2 slanted" id="home-section">
               <div className="container">
                   <div className="row align-items-center justify-content-center">
+                      <a href="/evaport/product" className="previousTag"><FontAwesomeIcon icon={faChevronLeft} /></a>
+
                       <div className="col-md-8 text-center">
+
                           <h1 style={{textTransform:"capitalize"}}>EvaBrand</h1>
                           <div className="mx-auto w-75">
                               <p></p>

@@ -347,13 +347,22 @@ h1, h2, h3, h4 {
 }
 
 .site-section {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     position: relative;
     z-index: 1; }
+@media (max-width: 767px){
+    .site-section{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
 
 .text-black {
     color: #000 !important; }
+section{
+    margin-bottom: 1%;
+}
 
 .home-section {
     position: relative;
@@ -429,7 +438,7 @@ h1, h2, h3, h4 {
     width: 100%; }
 
 .img-overlap {
-    position: relative; }
+     }
 .img-overlap .img-1, .img-overlap .img-2 {
     padding: 4%;
     max-width: 500px; }
@@ -437,7 +446,7 @@ h1, h2, h3, h4 {
     .img-overlap .img-1, .img-overlap .img-2 {
         padding: 10%;
         max-width: 400px;
-        position: relative; } }
+         } }
 .img-overlap .img-1 {
     top: 0; }
 .img-overlap .img-2 {

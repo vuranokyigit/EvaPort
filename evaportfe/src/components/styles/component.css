@@ -169,7 +169,6 @@ width: 80%;
 }
 @media (max-width: 767px) {
    #about-us-section{
-       height: 60rem;
    }
 }
 #counterPart{
@@ -279,6 +278,7 @@ width: 80%;
     }
 
 }
+
 /*ABOUT*/
 .carouselSection{
  padding: 10%;
