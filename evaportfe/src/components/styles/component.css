@@ -154,17 +154,29 @@ width: 80%;
         background-attachment: fixed;
     }
 }
-    @media (max-width: 600px) {
-    #counterMainDiv {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-        width: 100%;
-        margin-bottom: 32rem;
-    }
+@media (max-width: 600px) {
     #counterPart{
         margin-top: 2rem;
+        height: 10px;
+    }
+    .homeIcon svg{
+        font-size: 1.8rem!important;
+    }
+    .number{
+        font-size: 1.5rem!important;
+    }
+    .caption{
+        font-size: .8rem!important;
+
+    }
+    #counterMainDiv{
+        margin-bottom: 30%;
+        margin-top: 10px;
+        display: flex;
+        align-items: baseline;
+    }
+    .section-counter{
+        height: 10rem!important;
     }
 }
 @media (max-width: 767px) {
