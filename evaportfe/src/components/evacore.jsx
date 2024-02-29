@@ -36,7 +36,7 @@ const Evacore = () => {
                             <div className="col-lg-6">
                                 <figure>
                                     <a href="assets/3.png" data-fancybox="gallery">
-                                        <img src="/assets/evablueclass.jpg" alt="" className="img-fluid" />
+                                        <img src="/assets/sand.jpg" alt="" className="img-fluid" />
                                     </a>
                                 </figure>
 

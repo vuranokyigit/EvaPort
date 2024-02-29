@@ -438,15 +438,18 @@ section{
     width: 100%; }
 
 .img-overlap {
-     }
+    width: 40% }
 .img-overlap .img-1, .img-overlap .img-2 {
     padding: 4%;
     max-width: 500px; }
 @media (max-width: 992px) {
     .img-overlap .img-1, .img-overlap .img-2 {
-        padding: 10%;
-        max-width: 400px;
-         } }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 275%;
+        max-width: 500px;
+    } }
 .img-overlap .img-1 {
     top: 0; }
 .img-overlap .img-2 {

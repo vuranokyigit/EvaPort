@@ -71,7 +71,7 @@ const About = () => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 mb-5 mb-lg-0">
-                            <img src="/assets/1-min.png" alt="" className="img-fluid img-shadow" />
+                            <img src="/assets/inovasyonImg.jpg" alt="" className="img-fluid img-shadow" id="firstImgInAbout" />
                         </div>
                         <div className="col-lg-5 ml-auto">
                             <h2 className="section-title mb-3">
@@ -87,38 +87,35 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <section className="site-section about-us-section" id="twinImageAbout">
+            <section className="site-section">
                 <div className="container">
-                    <div className="row mb-5 pt-0 site-section">
-                        <div className="col-md-6 align-self-center">
-                            <h2 className="section-title">
+                    <div className="row align-items-center" id="aboutSecondpara">
+                        <div className="col-lg-5 ml-auto">
+                            <h2 className="section-title mb-3">
                                 {t('aboutUsSecondTitle')}
                             </h2>
                             <p>
                                 {t('aboutUsSecondParagraph')}
                             </p>
+                            <p className="mt-4">
+                                <a style={{textTransform:"capitalize"}} href="/eva/product" className="spepcial_link">
+                                    {t('homeAboutUsLink')}
+                                </a>
+                            </p>
                         </div>
-                        <div className="col-md-5 ml-auto img-overlap">
-                            <div className="img-1">
-                                <img
-                                    src="/assets/8-min.png"
-                                    alt=""
-                                    className="img-fluid img-shadow"
-                                    loading="lazy"
-                                />
-                            </div>
-                            <div className="img-2">
-                                <img
-                                    src="/assets/9-min.png"
-                                    alt=""
-                                    className="img-fluid img-shadow"
-                                    loading="lazy"
-                                />
-                            </div>
+                        <div className="col-lg-6 mb-5 mb-lg-0">
+                            <img
+                                src="/assets/legoeva.jpg"
+                                alt=""
+                                className="img-fluid img-shadow"
+                                loading="lazy"
+                                id="firstImgInAbout"
+                            />
                         </div>
                     </div>
                 </div>
             </section>
+
             <section className="carouselSection">
                 <Carousel  autoPlay interval={2000} infiniteLoop >
 
@@ -134,6 +131,7 @@ const About = () => {
                     <div>
                         <img src="/assets/rawmaterials3.jpg" alt="" />
                     </div>
+
                     <div>
                         <img src="/assets/evasonimage.jpeg" alt="" />
                     </div>
@@ -147,6 +145,7 @@ const About = () => {
                         <img src="/assets/8-min.png" alt="" />
                     </div>
 
+
                 </Carousel>
             </section>
             <section className="site-section">
@@ -154,11 +153,10 @@ const About = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-5 mb-lg-0">
                                 <img
-                                    src="/assets/mixurun2.jpg"
+                                    src="/assets/mixurun2.JPG"
                                     alt=""
                                     className="img-fluid img-shadow"
                                     loading="lazy"
-
                                 />
                             </div>
                             <div className="col-lg-5 ml-auto">

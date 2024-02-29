@@ -145,7 +145,7 @@
     align-items: flex-start;
     width: 65%;
     height: 300px;
-    background-color: #04382e;
+    background-color: #28a745;
 }
 .productCard{
     margin-top: 15%;
@@ -174,8 +174,6 @@
 
 #cardBodyHome {
     padding: 1px!important;
-    color: #000000;
-
 }
 
 #cardTitle {
@@ -183,7 +181,6 @@
     justify-content: center;
     flex-direction: row;
     padding: 5px;
-    color: #000000;
 }
 
 #nearLogoExp {
@@ -192,7 +189,7 @@
     align-items: center;
 }
 .divider-horizontal{
-    color: #04382e;
+    color: #28a745;
 }
 @media (min-width: 500px) {
     .divider-horizontal{

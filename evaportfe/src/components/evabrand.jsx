@@ -12,9 +12,7 @@ const Evabrand = () => {
               <div className="container">
                   <div className="row align-items-center justify-content-center">
                       <a href="/evaport/product" className="previousTag"><FontAwesomeIcon icon={faChevronLeft} /></a>
-
                       <div className="col-md-8 text-center">
-
                           <h1 style={{textTransform:"capitalize"}}>EvaBrand</h1>
                           <div className="mx-auto w-75">
                               <p></p>
@@ -34,7 +32,8 @@ const Evabrand = () => {
                       <div className="col-lg-6">
                           <figure>
                               <a href="/assets/EvaBrandLogo.png" data-fancybox="gallery">
-                                  <img src="/assets/mixurun2.jpg" alt="" className="img-fluid" />
+                                  <img src="/assets/solesunter.jpg" alt="" className="img-fluid" id="firstImgInAbout"
+                                  />
                               </a>
                           </figure>
                       </div>
