@@ -106,6 +106,19 @@ width: 80%;
 }
 
 /*HOME*/
+#counterCont{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+@media (max-width: 500px) {
+    #counterCont{
+
+        margin-top: 20%;
+    }
+}
 @media (max-width: 993px) {
     .animated-heading {
         font-size: 1px;
@@ -292,6 +305,22 @@ width: 80%;
 }
 
 /*ABOUT*/
+/*GrassWorld*/
+@media (max-width: 600px) {
+    #grassId1{
+        position: absolute;
+    }
+    #grassId2{
+        margin-top: -130px;
+    }
+    #grassId3{
+        margin-top: -50px;
+    }
+    #grassId4{
+        margin-top: 302px;
+    }
+
+}
 #aboutSecondpara{
     justify-content: flex-end;
 }

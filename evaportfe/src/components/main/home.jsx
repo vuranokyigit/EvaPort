@@ -41,6 +41,7 @@ const Home = () => {
                </section>
            </div>
            <div className="row pb-0 border-top pt-5 block__19738 section-counter" id="counterMainDiv">
+               <div className="container" id="counterCont">
                <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
                    <span className="homeIcon"><FontAwesomeIcon icon={faCubes} size="2xl" /></span>
                    <div className="d-flex align-items-center justify-content-center mb-2" id="infoNumber">
@@ -69,6 +70,7 @@ const Home = () => {
                                    </span>
                    </div>
                    <span className="caption">m<sup>2</sup> {t('homeCounterFactoryArea')}</span>
+               </div>
                </div>
            </div>
            <section className="site-section about-us-section" id="about-us-section">
@@ -116,11 +118,11 @@ const Home = () => {
                                    <div className="card-title" id="cardTitle" >
                                        <div className="row">
                                            <div className="col-6"><img src="/assets/soles.png" style={{fontSize:"xx-small", width:"100%"}} alt=" "/></div>
-                                           <div className="col-6" id="nearLogoExp">Soles</div>
+                                           <div className="col-6" id="nearLogoExp">{t('homeTableTitleSoles')}</div>
                                        </div>
                                    </div>
                                    <div className="card-body" id="cardBodyHome">
-                                       Lightweight, flexible, abrasion, resistant, soft touch
+                                       {t('homeTableBodySoles')}
                                    </div>
                                </div>
                                <div className="divider-horizontal">'</div>
@@ -128,11 +130,11 @@ const Home = () => {
                                    <div className="card-title" id="cardTitle">
                                        <div className="row">
                                            <div className="col-6"><img src="/assets/slippers.png" style={{fontSize:"xx-small", width:"100%"}} alt=" "/></div>
-                                           <div className="col-6" id="nearLogoExp">Slippers</div>
+                                           <div className="col-6" id="nearLogoExp">{t('homeTableTitleSlippers')}</div>
                                        </div>
                                    </div>
                                    <div className="card-body" id="cardBodyHome">
-                                       Lightweight, good grip, wide range of colors
+                                       {t('homeTableBodySlippers')}
                                    </div>
                                </div>
                                <div className="divider-horizontal">'</div>
@@ -140,11 +142,11 @@ const Home = () => {
                                    <div className="card-title"  id="cardTitle" >
                                        <div className="row">
                                            <div className="col-6"><img src="/assets/boots.png" style={{fontSize:"xx-small", width:"100%"}} alt=" "/></div>
-                                           <div className="col-6" id="nearLogoExp">Boots</div>
+                                           <div className="col-6" id="nearLogoExp">{t('homeTableTitleBoots')}</div>
                                        </div>
                                    </div>
                                    <div className="card-body" id="cardBodyHome">
-                                       Lightweight, resistant, perfect aspect
+                                       {t('homeTableBodyBoots')}
                                    </div>
                                    <p className="mt-lg-5">
                                        <a style={{textTransform:"capitalize"}} href="/evaport/product" className="spepcial_link">

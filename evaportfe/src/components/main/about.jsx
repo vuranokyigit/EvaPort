@@ -105,11 +105,10 @@ const About = () => {
                         </div>
                         <div className="col-lg-6 mb-5 mb-lg-0">
                             <img
-                                src="/assets/legoeva.jpg"
+                                src="/assets/taban1234.jpeg"
                                 alt=""
                                 className="img-fluid img-shadow"
                                 loading="lazy"
-                                id="firstImgInAbout"
                             />
                         </div>
                     </div>
@@ -151,19 +150,20 @@ const About = () => {
             <section className="site-section">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-6 mb-5 mb-lg-0">
+                            <div className="col-lg-6 mb-5 mb-lg-0" id="grassId1">
                                 <img
-                                    src="/assets/mixurun2.JPG"
+                                    src="/assets/grassWorld.jpg"
                                     alt=""
                                     className="img-fluid img-shadow"
                                     loading="lazy"
+                                    id="grassId2"
                                 />
                             </div>
                             <div className="col-lg-5 ml-auto">
-                                <h2 className="section-title mb-3">
+                                <h2 className="section-title mb-3" id="grassId3">
                                     {t('aboutUsThirdTitle')}
                                 </h2>
-                                <p>
+                                <p id="grassId4">
                                     {t('aboutUsThirdParagraph')}
                                 </p>
                             </div>
