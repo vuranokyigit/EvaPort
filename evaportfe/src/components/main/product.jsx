@@ -50,7 +50,7 @@ const Product = () => {
                   </div>
               </div>
           </section>
-          <section  className= "site-section about-us-section mt-10">
+         {/* <section  className= "site-section about-us-section mt-10">
               <div className="productCard">
                   <div className="container">
                       <div className="row align-items-center justify-content-center">
@@ -94,7 +94,7 @@ const Product = () => {
                       </div>
                   </div>
               </div>
-          </section>
+          </section>*/}
       </div>
   )
 }
