@@ -2,6 +2,7 @@ import React from "react";
 import {useTranslation} from "react-i18next";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFileInvoice} from "@fortawesome/free-solid-svg-icons";
+import {Icon} from "@iconify/react";
 
 const Evacore = () => {
     const {t}=useTranslation();
@@ -16,6 +17,7 @@ const Evacore = () => {
                     <div className="container">
                         <div className="row align-items-center justify-content-center">
                             <div className="col-md-8 text-center">
+                                <a href="/evaport/product" className="previousTag"><Icon icon="carbon:previous-filled" id="previousTagId"/></a>
                                 <h1 style={{textTransform:"capitalize"}}>EvaCore</h1>
                                 <div className="mx-auto w-75">
                                     <p />

@@ -203,15 +203,8 @@
 #proProductSolesSection{
     margin-top: -12%;
 }
-.previousTag{
-    position: fixed;
-    display: flex;
-    border: 1px solid #111111;
-    border-radius: 100px;
-    width: 50px;
-    height: 50px;
-    z-index: 20;
-}
+
+
 /*EVABRAND*/
 .documentSection{
     margin-bottom: 20%;
