@@ -4,6 +4,7 @@ import * as PropTypes from "prop-types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIndustry, faCubes,faUserGroup } from '@fortawesome/free-solid-svg-icons';
 import {useTranslation} from "react-i18next";
+
 //animated number method.///////////////
 const Count = ({n}) => {
     const { counter } = useSpring({
@@ -109,7 +110,7 @@ const Home = () => {
 
                    </div>
                </section>
-           <section  className= "site-section about-us-section mt-9 mb-4" id="about-us-section" style={{marginTop:"-15%"}}>
+{/*           <section  className= "site-section about-us-section mt-9 mb-4" id="about-us-section" style={{marginTop:"-15%"}}>
                <div className="productCard">
                    <div className="container">
                        <div className="row align-items-center justify-content-center">
@@ -158,7 +159,7 @@ const Home = () => {
                        </div>
                    </div>
                </div>
-           </section>
+           </section>*/}
            <section className="site-section about-us-section" id="about-us-section" style={{marginTop:"-5%"}}>
                <div className="container">
                    <div className="row mb-5 pt-0 site-section">
