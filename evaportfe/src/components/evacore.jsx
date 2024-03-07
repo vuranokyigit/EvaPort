@@ -61,7 +61,6 @@ const Evacore = () => {
                             <a href="/TDS-EVAPORT-ENG 1.25.pdf" style={{color:"black"}} target="_blank" rel="noopener noreferrer"><span className="homeIcon"><FontAwesomeIcon icon={faFileInvoice} size="2xl" /></span></a>
                             <div className="d-flex align-items-center justify-content-center mb-2" id="infoNumber">
                                 <span className="icon-line-mobile mr-3" />
-
                             </div>
                             <span className="caption">{t('productDocuments')} 1.25 </span>
                         </div>
