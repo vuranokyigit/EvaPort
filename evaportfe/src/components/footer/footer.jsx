@@ -66,7 +66,7 @@ const Footer = () => {
 
                         </div>
                     </div>
-                    <div className="row text-center">
+                    <div className="row text-center" style={{marginBottom:"-50px"}}>
                         <div className="container">
                         <div className="col-12">
                             <a href="https://evaport.pt/"><img style={{width:"50%"}}  src="/assets/Evalightlight.png" alt=" "/></a>
@@ -74,8 +74,19 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className="copyRight">
-                    <p className="copyright" style={{ color: "whitesmoke", fontSize: "1rem"}}> &copy; {new Date().getFullYear()} {t('footerCopyRightText')} EVAPORT  </p>
+                    <p className="copyright" style={{ color: "whitesmoke", fontSize: "1rem"}}> &copy; {new Date().getFullYear()} {t('footerCopyRightText')} EVAPORT</p>
+                </div>
+
+            </footer>
+            <footer>
+                <div className="container">
+                    <div className="row" >
+                       <div className="col" style={{height:"40px", display:"flex", alignItems:"center", justifyContent:"center"}}>
+                           <a href="https://app.websitepolicies.com/policies/edit/privacy-policy/r5fdz4qx" style={{color:"white", textDecoration:"none"}}>Privacy & Policy</a>
+                       </div>
+                    </div>
                 </div>
             </footer>
 
