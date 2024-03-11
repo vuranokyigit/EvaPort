@@ -84,7 +84,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="row" >
                        <div className="col" style={{height:"40px", display:"flex", alignItems:"center", justifyContent:"center"}}>
-                           <a href="https://app.websitepolicies.com/policies/edit/privacy-policy/r5fdz4qx" style={{color:"white", textDecoration:"none"}}>Privacy & Policy</a>
+                           <a href="https://app.websitepolicies.com/policies/edit/privacy-policy/r5fdz4qx" style={{color:"white", textDecoration:"none"}}>{t("footerPrivacy")}</a>
                        </div>
                     </div>
                 </div>
