@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect, useRef} from "react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -6,6 +6,8 @@ import { Carousel } from 'react-responsive-carousel';
 
 const About = () => {
     const [openModalVideo, setOpenVideo] = useState(false); //set true cause of would like to when about layer opened video is opened
+    const videoRef = useRef(null);
+
 
     const openVideo = () => {
         setOpenVideo(!openModalVideo);
@@ -15,6 +17,10 @@ const About = () => {
     const closeModal = () => {
         setOpenVideo(false);
         console.log("clicked close modal");
+        if(videoRef.current){
+            videoRef.current.pause();
+        }
+
     };
 
     useEffect(() => {
@@ -26,6 +32,7 @@ const About = () => {
         };
         if (openModalVideo) {
             document.addEventListener("click", handleOverlayClick);
+            console.log("sdfjhsjkf")
         }
 
         // Remove the event listener when the modal is closed // close modal after click anywhere without videoscreen
@@ -57,6 +64,7 @@ const About = () => {
                                             playsInline
                                             loop
                                             controls
+                                            ref={videoRef}
                                             alt=""
                                             src="/assets/EVAportvideo.mp4"
                                         />
