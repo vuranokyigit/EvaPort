@@ -26,7 +26,7 @@ public class ContactControllerPort {
         // E-posta gönderme işlemleri
         SimpleMailMessage message = new SimpleMailMessage();
         //e-postanin gonderilecegi adres
-        message.setTo("infofyvuranokk@gmail.com");
+        message.setTo("fyvuranokk@gmail.com");
         message.setSubject(contactForm.getSubject());
         message.setText("Email: "+contactForm.getEmail() +"\n\n"+"Name: " + contactForm.getName() + "\n\n" + contactForm.getBody());
         System.out.println("success");
