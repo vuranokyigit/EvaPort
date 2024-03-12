@@ -66,10 +66,10 @@ const Footer = () => {
 
                         </div>
                     </div>
-                    <div className="row text-center" style={{marginBottom:"-50px"}}>
+                    <div className="row text-center" >
                         <div className="container">
                         <div className="col-12">
-                            <a href="https://evaport.pt/"><img style={{width:"50%"}}  src="/assets/Evalightlight.png" alt=" "/></a>
+                            <a href="https://evaport.pt/"><img id="footerImg" style={{width:"50%"}}  src="/assets/Evalightlight.png" alt=" "/></a>
                         </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="row" >
                        <div className="col" style={{height:"40px", display:"flex", alignItems:"center", justifyContent:"center"}}>
-                           <a href="https://app.websitepolicies.com/policies/edit/privacy-policy/r5fdz4qx" style={{color:"white", textDecoration:"none"}}>{t("footerPrivacy")}</a>
+                           <p href="" style={{color:"white", textDecoration:"none"}}>{t("footerPrivacy")}</p>
                        </div>
                     </div>
                 </div>

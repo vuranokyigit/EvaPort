@@ -505,6 +505,15 @@ form button{
     align-content: center;
     justify-content: center;
 }
+@media (max-width: 500px) {
+    .copyright{
+        font-size: 0.7rem!important;
+    }
+    #footerImg{
+        width: 70%!important;
+    }
+
+}
 #infoNumber{
     margin-top: 10px;
 }
