@@ -131,7 +131,7 @@ width: 80%;
             opacity: 0;
         }
         to {
-            font-size: 2.5rem;
+            font-size: 1.5rem;
             opacity: 1;
         }
     }
@@ -148,7 +148,7 @@ width: 80%;
             opacity: 0;
         }
         to {
-            font-size: 5.3rem;
+            font-size: 2.5rem;
             opacity: 1;
         }
     }
@@ -160,6 +160,38 @@ width: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bgContainer{
+    width: 100%;
+    height: 100vh;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#videoContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /*
+    height: 100%;
+    */
 }
 @media (min-width: 991px){
     #home-section{

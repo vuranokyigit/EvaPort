@@ -4,6 +4,7 @@ import * as PropTypes from "prop-types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIndustry, faCubes,faUserGroup } from '@fortawesome/free-solid-svg-icons';
 import {useTranslation} from "react-i18next";
+import video from '../../video.mp4';
 
 //animated number method.///////////////
 const Count = ({n}) => {
@@ -24,7 +25,24 @@ const Home = () => {
        <>
            <div>
                {/* HOME */}
-               <section
+               <section>
+           <div className="bgContainer mb-4">
+               <div className="overlay">
+                   <video src={video} autoPlay loop muted/>
+                   <div className="container" id="videoContainer">
+                       <div className="row align-items-center justify-content-center">
+                           <div className="col-md-8 text-center" id="evaPortWelcome">
+                               <h1 className="animated-heading" style={{fontWeight:"bolder"}}>{t('homeWelcome')}</h1>
+                            {/*   <a href="/evaport/contact" className="btn btn-md"  id="homeSectionBtnContact" style={{fontWeight: "300"}}>
+                                   {t('homeButtonGetInTouch')}
+                               </a>*/}
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           </section>
+              {/* <section
                    style={{ backgroundImage: 'url("/assets/bluesilica-min.png")' }}
                    className="home-section section-hero overlay slanted position-relative"
                    id="home-section">
@@ -32,14 +50,16 @@ const Home = () => {
                        <div className="row align-items-center justify-content-center">
                            <div className="col-md-8 text-center" id="evaPortWelcome">
                                <h1 className="animated-heading" style={{fontWeight:"bolder"}}>{t('homeWelcome')}</h1>
+
                                <h1 className="animated-heading" style={{fontWeight:"bolder"}}>{t('homeWelcome2')}</h1>
+
                                <a href="/evaport/contact" className="btn btn-md"  id="homeSectionBtnContact" style={{fontWeight: "300"}}>
                                      {t('homeButtonGetInTouch')}
                                   </a>
                            </div>
                        </div>
                    </div>
-               </section>
+               </section>*/}
            </div>
            <div className="row pb-0 border-top pt-5 block__19738 section-counter" id="counterMainDiv">
                <div className="container" id="counterCont">
