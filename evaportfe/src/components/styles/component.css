@@ -144,11 +144,11 @@ width: 80%;
 
     @keyframes growingAnimation {
         from {
-            font-size: 0;
+            font-size: 0rem;
             opacity: 0;
         }
         to {
-            font-size: 2.5rem;
+            font-size: 2.9rem;
             opacity: 1;
         }
     }

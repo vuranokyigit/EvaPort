@@ -26,16 +26,18 @@ const Home = () => {
            <div>
                {/* HOME */}
                <section>
-           <div className="bgContainer mb-4">
+           <div className="bgContainer" >
                <div className="overlay">
                    <video src={video} autoPlay loop muted/>
                    <div className="container" id="videoContainer">
                        <div className="row align-items-center justify-content-center">
-                           <div className="col-md-8 text-center" id="evaPortWelcome">
+                           <div className="col-md-8 text-center" id="evaPortWelcome" style={{marginTop:"100px"}}>
                                <h1 className="animated-heading" style={{fontWeight:"bolder"}}>{t('homeWelcome')}</h1>
-                            {/*   <a href="/evaport/contact" className="btn btn-md"  id="homeSectionBtnContact" style={{fontWeight: "300"}}>
+                               <h1 className="animated-heading" style={{fontWeight:"bolder"}}>{t('homeWelcome2')}</h1>
+                               <h3>{t("aboutUsSecondMainTitle")}</h3>
+                                  <a href="/evaport/contact" className="btn btn-md"  id="homeSectionBtnContact" style={{fontWeight: "300"}}>
                                    {t('homeButtonGetInTouch')}
-                               </a>*/}
+                               </a>
                            </div>
                        </div>
                    </div>

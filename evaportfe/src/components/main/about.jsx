@@ -54,7 +54,6 @@ const About = () => {
                     <div className="row align-items-center justify-content-center">
                         <div className="col-md-8 text-center" id="evaPortWelcome">
                             <h1 className="animated-heading" style={{fontWeight:"bold"}}>{t('aboutUsMainTitle')}</h1>
-                            <h3>{t("aboutUsSecondMainTitle")}</h3>
                             <div className="mx-auto w-75">
                                 <button id="aboutButtonVideo" onClick={openVideo}> <span>{t('aboutButtonVideo')}</span></button>
                                 <div className={`modal ${openModalVideo ? 'open' : ''}`}>
