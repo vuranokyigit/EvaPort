@@ -2,7 +2,7 @@ import React from "react";
 import {useSpring, animated} from "react-spring";
 import * as PropTypes from "prop-types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faIndustry, faCubes,faUserGroup } from '@fortawesome/free-solid-svg-icons';
+import { faIndustry, faCubes,faUserGroup,faAward } from '@fortawesome/free-solid-svg-icons';
 import {useTranslation} from "react-i18next";
 import video from '../../video.mp4';
 
@@ -31,11 +31,17 @@ const Home = () => {
                    <video src={video} autoPlay loop muted/>
                    <div className="container" id="videoContainer">
                        <div className="row align-items-center justify-content-center">
-                           <div className="col-md-8 text-center" id="evaPortWelcome" style={{marginTop:"100px"}}>
-                               <h1 className="animated-heading" style={{fontWeight:"bolder"}}>{t('homeWelcome')}</h1>
-                               <h1 className="animated-heading" style={{fontWeight:"bolder"}}>{t('homeWelcome2')}</h1>
+                           <div className="col-md-8 text-center" id="evaPortWelcome" style={{marginTop: "100px"}}>
+                               <div className="awardsBox">
+                                   <FontAwesomeIcon icon={faAward} size="2xl" style={{marginTop: "20px"}}/>
+                                   <p className="awardsBoxBody">{t('homeAwards')}<br/>{t('homeAwards2')}</p>
+
+                               </div>
+                               <h1 className="animated-heading" style={{fontWeight: "bolder"}}>{t('homeWelcome')}</h1>
+                               <h1 className="animated-heading" style={{fontWeight: "bolder"}}>{t('homeWelcome2')}</h1>
                                <h3>{t("aboutUsSecondMainTitle")}</h3>
-                                  <a href="/evaport/contact" className="btn btn-md"  id="homeSectionBtnContact" style={{fontWeight: "300"}}>
+                               <a href="/evaport/contact" className="btn btn-md" id="homeSectionBtnContact"
+                                  style={{fontWeight: "300"}}>
                                    {t('homeButtonGetInTouch')}
                                </a>
                            </div>
@@ -43,8 +49,8 @@ const Home = () => {
                    </div>
                </div>
            </div>
-           </section>
-              {/* <section
+               </section>
+               {/* <section
                    style={{ backgroundImage: 'url("/assets/bluesilica-min.png")' }}
                    className="home-section section-hero overlay slanted position-relative"
                    id="home-section">
