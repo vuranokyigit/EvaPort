@@ -31,6 +31,12 @@ public class ContactControllerPort {
         message.setText("Email: "+contactForm.getEmail() +"\n\n"+"Name: " + contactForm.getName() + "\n\n" + contactForm.getBody());
         System.out.println("success");
         mailSender.send(message);
+//        // Kullanıcıya onay e-postası gönder
+//        SimpleMailMessage confirmationMessage = new SimpleMailMessage();
+//        confirmationMessage.setTo(contactForm.getEmail());
+//        confirmationMessage.setSubject("Your request has been received by us.");
+//        confirmationMessage.setText("Mr./Mrs. " + contactForm.getName() + ",\n\n your request has been received by us. We will get back to you as soon as possible.\n\nRegards,\nEvaport Team");
+//        mailSender.send(confirmationMessage);
 
         // Başarı bildirimi için HTTP 200 durumu ile birlikte view adını döndür
         return ResponseEntity.ok("{\"message\":\"success\"}");
